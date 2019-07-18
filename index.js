@@ -25,7 +25,7 @@ function firstplay(){
     div.classList.add("divoflist")
     var buttonplay = document.createElement("button");
     buttonplay.addEventListener("click", nextpage)
-    buttonplay.classList.add("PlayButton");
+    buttonplay.classList.add("catbut");
     var buttontext = document.createTextNode("Play");
     var p =  document.createElement("p");
     p.classList.add("pof");

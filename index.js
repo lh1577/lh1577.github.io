@@ -23,6 +23,7 @@ function firstplay(){
     var game = document.getElementById("game");
     var div = document.createElement("div");
     div.classList.add("divoflist")
+    var divtwo = document.createElement("div");
     var buttonplay = document.createElement("button");
     buttonplay.addEventListener("click", nextpage)
     buttonplay.classList.add("catbut");
@@ -33,8 +34,9 @@ function firstplay(){
     buttonplay.appendChild(buttontext);
     p.appendChild(pin);
     div.appendChild(p);
-    div.appendChild(buttonplay);
+    divtwo.appendChild(buttonplay);
     game.appendChild(div);
+    game.appendChild(divtwo);
 }
 function nextpage(){
     var categories1 = null;

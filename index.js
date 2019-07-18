@@ -606,10 +606,13 @@ function correctorwrong(answer,correct,url,cl,lvl){
 function timerunsout(obj,cl,lvl){
     var e = document.getElementById("game");
     var p = document.createElement("p");
+    p.classList.add("pof")
+    var d = document.createElement("div");
+    d.classList.add("divoflist")
     var pin = document.createTextNode("Die Zeit ist abgelaufen!!")
     var b = document.createElement("button");
     var bin = document.createTextNode("Schließen");
-    b.classList.add("buttonplay");
+    b.classList.add("catbut");
     b.onclick = function(){
         document.getElementById("game").innerHTML="";
         timervar=1;
@@ -619,8 +622,10 @@ function timerunsout(obj,cl,lvl){
     }
     p.appendChild(pin);
     b.appendChild(bin);
-    e.appendChild(p);
-    e.appendChild(b);
+    d.appendChild(p);
+    d.appendChild(b);
+    e.appendChild(d);
+
 
 
 }

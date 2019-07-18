@@ -1,0 +1,36 @@
+[{
+    "F":"Was sind die ersten 3 Nachkommastellen von Pi",
+    "A1":"2,182",
+    "A2":"1,235",
+    "A3":"3,141",
+    "A4":"0,029",
+    "correctAnswer":"3,141"
+},{
+    "F":"Morgens geh ich auf 4 Beinen, Mittags auf 2 und Abends auf 3. Was bin ich?",
+    "A1":"Die Zeit",
+    "A2":"Ein Insekt",
+    "A3":"Ein Mensch",
+    "A4":"Das Unmögliche",
+    "correctAnswer":"Ein Mensch"
+},{
+    "F":"Wer entdeckte: Dass sich die Planeten um die Sonne bewegen?",
+    "A1":"Nikolaus Kopernikus",
+    "A2":"Galileo Galilei",
+    "A3":"Johannes Kepler",
+    "A4":"Archimedes",
+    "correctAnswer":"Nikolaus Kopernikus"
+},{
+    "F":"Dreht sich die Sonne um die Erde oder umgekehrt?",
+    "A1":"Sonne um die Erde",
+    "A2":"Erde mit der Sonne ",
+    "A3":"Erde um die Sonne",
+    "A4":"Die Erde dreht sich nicht ",
+    "correctAnswer":"Erde um die Sonne"
+},{
+    "F":"Welcher ist unser größter Planet im Sonnensystem?",
+    "A1":"Jupiter",
+    "A2":"Pluto",
+    "A3":"Merkur",
+    "A4":"Sonne",
+    "correctAnswer":"Jupiter"
+}]

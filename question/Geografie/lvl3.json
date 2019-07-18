@@ -1,0 +1,40 @@
+[{
+    "F":"Wie schwer ist die Erde in Trillionen Tonnen?",
+    "A1":"3",
+    "A2":"120",
+    "A3":"6000",
+    "A4":"11000",
+    "correctAnswer":"6000"
+},
+{
+    "F":"Welche Länder umschließen den Bodensee?",
+    "A1":"Österreich, Deutschland, Schweiz",
+    "A2":"Italien, Deutschland, Schweiz",
+    "A3":"Österreich, Schweiz, Italien",
+    "A4":"Frankreich, Deutschland, Schweiz",
+    "correctAnswer":"Österreich, Deutschland, Schweiz"
+
+},{
+    "F":"Wie hoch ist der höchste Berg der Erde?",
+    "A1":"8848m",
+    "A2":"8932m",
+    "A3":"8728m",
+    "A4":"8655m",
+    "correctAnswer":"8848m"
+
+},{
+    "F":"Welches ist die größte Wüste Asiens?",
+    "A1":"Gobi",
+    "A2":"Karakum",
+    "A3":"Aralkum",
+    "A4":"Nefud",
+    "correctAnswer":"Gobi"
+
+},{
+    "F":"Wo befindet sich das Kap der Guten Hoffnung?",
+    "A1":"Neuseeland",
+    "A2":"Argentinien",
+    "A3":"Madagaska",
+    "A4":"Südafrika",
+    "correctAnswer":"Südafrika"
+}]

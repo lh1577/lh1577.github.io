@@ -1,0 +1,36 @@
+[{
+    "F":"Was für eine Sportart übte Henry Maske aus?",
+    "A1":"Boxen",
+    "A2":"Fußball",
+    "A3":"Handball",
+    "A4":"Tennis",
+    "correctAnswer":"Boxen"
+},{
+    "F":"In welcher Sportart muß man 3,8 km schwimmen, 180 km Fahrradfahren und einen Marathonlauf absolvieren?",
+    "A1":"Triathlon",
+    "A2":"Megatriathlon",
+    "A3":"Supertriathlon",
+    "A4":"Ironman",
+    "correctAnswer":"Supertriathlon"
+},{
+    "F":"Welcher Tennisspieler gewann als jüngster Spieler in Wimbledon?",
+    "A1":"Boris Becker",
+    "A2":"Ronald Beans",
+    "A3":"Sinecu Kkisla",
+    "A4":"Herald Nisgt",
+    "correctAnswer":"Boris Becker"
+},{
+    "F":"Wie heißt der in Japan äußerst angesehene Ringkampf-Sport?",
+    "A1":"Sumo",
+    "A2":"Ringen",
+    "A3":"Judo",
+    "A4":"Taekwondo",
+    "correctAnswer":"Sumo"
+},{
+    "F":"Von wann bis wann war Sepp Maier Nationaltorhüter?",
+    "A1":"1966 bis 1979",
+    "A2":"1943 bis 1984",
+    "A3":"1960 bis 1973",
+    "A4":"1988 bis 1994",
+    "correctAnswer":"1966 bis 1979"
+}]

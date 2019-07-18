@@ -1,0 +1,36 @@
+[{
+    "F":"Ab wann wurde Aspirin als Medikament verkauft?",
+    "A1":"1899",
+    "A2":"1869",
+    "A3":"1978",
+    "A4":"1963",
+    "correctAnswer":"1899"
+},{
+    "F":"Wie lange dauern 1 Milliarde Sekunden?",
+    "A1":"5 Tage",
+    "A2":"3 Monate",
+    "A3":"12 Jahre",
+    "A4":"31 Jahre",
+    "correctAnswer":"31 Jahre"
+},{
+    "F":"Wer entdeckte die elektromagnetischen Wellen?",
+    "A1":"Heinrich Hertz",
+    "A2":"Dimitri Askiol",
+    "A3":"Isaac Newton",
+    "A4":"Johannes Kepler",
+    "correctAnswer":"Heinrich Hertz"
+},{
+    "F":"Was ist 10 hoch 10?",
+    "A1":"10000",
+    "A2":"100",
+    "A3":"100000",
+    "A4":"1000",
+    "correctAnswer":"1000"
+},{
+    "F":"Mit was beschäftigt sich die Theologie?",
+    "A1":"Akustik",
+    "A2":"Gesundheitslehre",
+    "A3":"Geisteswissenschaften",
+    "A4":"Nautik",
+    "correctAnswer":"Geisteswissenschaften"
+}]

@@ -1,0 +1,40 @@
+[{
+    "F":"Welcher Vogel hat die größte Flügelspannweite ?",
+    "A1":"Albatros",
+    "A2":"Weißkopfseeadler",
+    "A3":"Kondor",
+    "A4":"Geier",
+    "correctAnswer":"Albatros"
+},
+{
+    "F":"Welches ist das kleinste Säugetier Europas?",
+    "A1":"Igel",
+    "A2":"Zwergfledermaus",
+    "A3":"Spitzmaus",
+    "A4":"Rennmaus",
+    "correctAnswer":"Zwergfledermaus"
+
+},{
+    "F":"Welcher Vogel kann im Sturzflug eine Geschwindigkeit von bis zu 360km/h erreichen?",
+    "A1":"Wanderfalke",
+    "A2":"Weißkopfseeadler",
+    "A3":"Falke",
+    "A4":"Tauben",
+    "correctAnswer":"Wanderfalke"
+
+},{
+    "F":"Welche Funktion haben die Höcker eines Kamels?",
+    "A1":"Sie haben keine Funktion",
+    "A2":"Für das Gleichgewicht",
+    "A3":"Als Wasserspeicher",
+    "A4":"Als Fettspeicher",
+    "correctAnswer":"Als Fettspeicher"
+
+},{
+    "F":"Wie viele Höcker hat ein Dromedar?",
+    "A1":"Keine",
+    "A2":"1",
+    "A3":"3",
+    "A4":"2",
+    "correctAnswer":"1"
+}]

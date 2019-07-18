@@ -1,0 +1,40 @@
+[{
+    "F":"Wer gewann die Fußballweltmeisterschaft 2018?",
+    "A1":"Deutschland",
+    "A2":"Frankreich",
+    "A3":"Brasilien",
+    "A4":"Spanien",
+    "correctAnswer":"Frankreich"
+},
+{
+    "F":"Mischung zwischen Fußball, Reitsport und Golf?",
+    "A1":"Tennis",
+    "A2":"Polo",
+    "A3":"Eurythmie",
+    "A4":"Dart",
+    "correctAnswer":"Polo"
+
+},{
+    "F":"Was ist ein knock out im Boxen?",
+    "A1":"Siegreicher Niederschlag des Gegners",
+    "A2":"Verliererpreis",
+    "A3":"Karatekick",
+    "A4":"Siegestanz",
+    "correctAnswer":"Siegreicher Niederschlag des Gegners"
+
+},{
+    "F":"Aus wie vielen Personen besteht mindestens eine Fußballmannschaft ?",
+    "A1":"13 ",
+    "A2":"14",
+    "A3":"10",
+    "A4":"11",
+    "correctAnswer":"11"
+
+},{
+    "F":"Wie lang ist eine Marathonstrecke?",
+    "A1":"ca. 21 km",
+    "A2":"genau 50 km",
+    "A3":"ungefähr 42 km",
+    "A4":"67 km ",
+    "correctAnswer":"ungefähr 42 km"
+}]

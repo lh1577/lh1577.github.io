@@ -1,0 +1,40 @@
+[{
+    "F":"Wann existierten die ersten Säugetiere?",
+    "A1":"149 Millionen Jahre",
+    "A2":"215 Millionen Jahre",
+    "A3":"282 Millionen Jahre",
+    "A4":"156 Millionen Jahre",
+    "correctAnswer":"215 Millionen Jahre"
+},
+{
+    "F":"Was ist das seltenste Tier auf unserem Planeten?",
+    "A1":"Sumatra-Nashorn",
+    "A2":"Panda",
+    "A3":"Silberrückengorilla",
+    "A4":"Java-Nashorn",
+    "correctAnswer":"Java-Nashorn"
+
+},{
+    "F":"Welches ist das giftigste Tier auf unserem Planeten?",
+    "A1":"Kugelfisch",
+    "A2":"Blauring-Krake",
+    "A3":"Inlandtaipan",
+    "A4":"Seewespe",
+    "correctAnswer":"Seewespe"
+
+},{
+    "F":"Wann starben die Dinosaurier aus?",
+    "A1":"65 Millionen Jahre",
+    "A2":"93 Millionen Jahre",
+    "A3":"78 Millionen Jahre",
+    "A4":"30 Millionen Jahre",
+    "correctAnswer":"65 Millionen Jahre"
+
+},{
+    "F":"Wann starben die Mammuts aus?",
+    "A1":"12000 Jahre",
+    "A2":"4000 Jahre",
+    "A3":"5000 Jahre",
+    "A4":"2300 Jahre",
+    "correctAnswer":"4000 Jahre"
+}]

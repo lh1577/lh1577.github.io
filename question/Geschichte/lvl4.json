@@ -1,0 +1,40 @@
+[{
+    "F":"Auf welche italienische Insel wurde Napoleon verbannt?",
+    "A1":"Greta",
+    "A2":"Elba",
+    "A3":"Zypern",
+    "A4":"Kyronos",
+    "correctAnswer":"Elba"
+},
+{
+    "F":"In welchem Tal wurde 1922 das Grab des Pharaos Tut-ench-amun entdeckt?",
+    "A1":"Im Tal der Könige",
+    "A2":"Im Tal der Wüste",
+    "A3":"Im Tal der Auferstehung",
+    "A4":"Im Tal der Pharaonen",
+    "correctAnswer":"Im Tal der Könige"
+
+},{
+    "F":"Nach welchem germanischen Volksstamm bezeichnet man noch heute sinnlose Beschädigungen?",
+    "A1":"Kelten",
+    "A2":"Germanen",
+    "A3":"Vandalen",
+    "A4":"Gallier",
+    "correctAnswer":"Vandalen"
+
+},{
+    "F":"Von welchem Land trennte sich Norwegen 1905?",
+    "A1":"Schweden",
+    "A2":"Island",
+    "A3":"Finnland",
+    "A4":"Dänemark",
+    "correctAnswer":"Schweden"
+
+},{
+    "F":"Wegen welcher Affäre trat 1974 der US-Präsident Richard Nixon zurück?",
+    "A1":"Preston",
+    "A2":"Richards",
+    "A3":"Smithbur",
+    "A4":"Watergate",
+    "correctAnswer":"Watergate"
+}]

@@ -1,0 +1,36 @@
+[{
+    "F":"Wann wurde mit dem Aufbau des Internets begonnen?",
+    "A1":"1980",
+    "A2":"1969",
+    "A3":"1978",
+    "A4":"1963",
+    "correctAnswer":"1969"
+},{
+    "F":"Welches Edelgas wird als Leuchtstoff in Röhren verwendet?",
+    "A1":"Neon",
+    "A2":"Xenon",
+    "A3":"Argon",
+    "A4":"Helium",
+    "correctAnswer":"Neon"
+},{
+    "F":"Welches ist das harteste uns bekannte Gestein?",
+    "A1":"Obsidian",
+    "A2":"Diorit",
+    "A3":"Granit",
+    "A4":"Diamant",
+    "correctAnswer":"Diamant"
+},{
+    "F":"Welches ist das leichteste Element",
+    "A1":"Helium",
+    "A2":"Kohlenstoff",
+    "A3":"Wasserstoff",
+    "A4":"Radium",
+    "correctAnswer":"Wasserstoff"
+},{
+    "F":"In welchem Abstand tritt ein Schaltjahr ein?",
+    "A1":"4 Jahre",
+    "A2":"3 Jahre",
+    "A3":"10 Jahre",
+    "A4":"6 Jahre",
+    "correctAnswer":"4 Jahre"
+}]

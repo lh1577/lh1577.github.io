@@ -1,0 +1,38 @@
+[{
+    "F":"Wie nennt man die obere Begrenzung eines Fußballtors?",
+    "A1":"Pfosten",
+    "A2":"Aluminiumbalken",
+    "A3":"Linie",
+    "A4":"Querlatte",
+    "correctAnswer":"Querlatte"
+},
+{
+    "F":"Was muß ein Fußballer tun, um einen Hattrick zu erzielen??",
+    "A1":"einen Handstand",
+    "A2":"3 Spiele hintereinander ein Tor schießen",
+    "A3":"3 Wochen jedes Spiel zu gewinnen",
+    "A4":"3 Tore hintereinander innerhalb einer Halbzeit erzielen",
+    "correctAnswer":"3 Tore hintereinander innerhalb einer Halbzeit erzielen"
+
+},{
+    "F":"Wie nennt man rabiate Fußballfans die oft durch Schlägereien und Alkoholkonsum auffallen?",
+    "A1":"Hooligans",
+    "A2":"Honks",
+    "A3":"Hippis",
+    "A4":"Handlanger",
+    "correctAnswer":"Hooligans"
+},{
+    "F":"Wo findet im Jahr 2006 die Fußball-Weltmeisterschaft statt ?",
+    "A1":"Spanien",
+    "A2":"Uruguay",
+    "A3":"Argentinien",
+    "A4":"Deutschland",
+    "correctAnswer":"Deutschland"
+},{
+    "F":"Was symbolisieren die verschlungenen fünf Ringe der olympischen Fahne?",
+    "A1":"5 Disziplinen",
+    "A2":"5 Kontinente",
+    "A3":"5 Gründer",
+    "A4":"5 Götter",
+    "correctAnswer":"5 Kontinente"
+}]

@@ -1,0 +1,36 @@
+[{
+    "F":"Gibt es ein Metall, das bei gewöhnlicher Temperatur flüssig ist?",
+    "A1":"Ja, Qecksilber",
+    "A2":"Nein, das ist unmöglich",
+    "A3":"Ja,Berylium",
+    "A4":"Ja,Eisen",
+    "correctAnswer":"Ja, Qecksilber"
+},{
+    "F":"Für welche Entdeckung ist Albert Einstein berühmt?",
+    "A1":"Relativitätstheorie",
+    "A2":"Gravitation",
+    "A3":"Schallwellen",
+    "A4":"Kernspaltung",
+    "correctAnswer":"Relativitätstheorie"
+},{
+    "F":"Welche lebensrettende Medizin verdanken wir Alexander Flemming?",
+    "A1":"Peniciilin",
+    "A2":"Ibuprofen",
+    "A3":"Aspirin",
+    "A4":"Narkotika",
+    "correctAnswer":"Peniciilin"
+},{
+    "F":"Was ist Kernfusion?",
+    "A1":"Die Verschmelzung von Atomkernen",
+    "A2":"Die Ausdehnung der Luft",
+    "A3":"Die Streckung der Raumzeit",
+    "A4":"Die Längendehnung",
+    "correctAnswer":"Die Verschmelzung von Atomkernen"
+},{
+    "F":"Wer schrieb das Buch Arithmeticaist?",
+    "A1":"Pythagoras",
+    "A2":"Euklid",
+    "A3":"Aristoteles",
+    "A4":"Diophantos von Alexandria",
+    "correctAnswer":"Diophantos von Alexandria"
+}]

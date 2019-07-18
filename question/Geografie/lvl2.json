@@ -1,0 +1,40 @@
+[{
+    "F":"Wie heißt der längste Fluss in Nordamerika?",
+    "A1":"Mississippi",
+    "A2":"Mackenzie",
+    "A3":"Yukon River",
+    "A4":"Rio Grande",
+    "correctAnswer":"Mississippi"
+},
+{
+    "F":"Was nennt man „The golden Gate?",
+    "A1":"ein goldenes Tor",
+    "A2":"eine Brücke",
+    "A3":"einen Kanal",
+    "A4":"ein Wolkenkratzer",
+    "correctAnswer":"eine Brücke"
+
+},{
+    "F":"Wie viel Prozent der Erdoberfläche entfallen auf Meer?",
+    "A1":"83 %",
+    "A2":"56 %",
+    "A3":"65 %",
+    "A4":"71 %",
+    "correctAnswer":"71 %"
+
+},{
+    "F":"Wie heißt der längste Fluss Europas?",
+    "A1":"Rhone",
+    "A2":"Donau",
+    "A3":"Wolga",
+    "A4":"Rhein",
+    "correctAnswer":"Wolga"
+
+},{
+    "F":"Wie heißt der Londoner Stadtteil, nach dem der Null-Meridian benannt ist?",
+    "A1":"Lewisham",
+    "A2":"Greenwich",
+    "A3":"Hampstead",
+    "A4":"Hackney",
+    "correctAnswer":"Greenwich"
+}]

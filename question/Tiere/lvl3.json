@@ -1,0 +1,50 @@
+[{
+    "F":"Welches ist die einzige Pinguinart, die während des antarktichen Winter brütet?",
+    "A1":"Adelie-Pinguin",
+    "A2":"Kaiserpinguin",
+    "A3":"Gentoo-Pinguin",
+    "A4":"Steinspringer-Pinguin",
+    "correctAnswer":"Kaiserpinguin"
+},
+{
+    "F":"Welches Tier hat einen Pelz?",
+    "F":"Welches ist die einzige Pinguinart, die während des antarktichen Winter brütet?",
+    "A1":"Adelie-Pinguin",
+    "A2":"Kaiserpinguin",
+    "A3":"Gentoo-Pinguin",
+    "A4":"Steinspringer-Pinguin",
+    "correctAnswer":"Kaiserpinguin"
+},
+{
+    "F":"Welches Tier hat einen Pelz?",
+    "A1":"Elch",
+    "A2":"Elefant",
+    "A3":"Schildkröte",
+    "A4":"Nilpferd",
+    "correctAnswer":"Elch"
+
+},{
+    "F":"Wie lang ist die Zunge einer Giraffe?",
+    "A1":"55cm",
+    "A2":"30cm",
+    "A3":"15cm",
+    "A4":"40cm",
+    "correctAnswer":"40cm"
+
+},{
+    "F":"Wie schnell können Strauße laufen?",
+    "A1":"35km/h",
+    "A2":"50km/h",
+    "A3":"75km/h",
+    "A4":"48kmh/h",
+    "correctAnswer":"50km/h"
+
+},{
+    "F":"Wie viele Nasenlöcher hat ein Pottwal?",
+    "A1":"Keine",
+    "A2":"1",
+    "A3":"3",
+    "A4":"2",
+    "correctAnswer":"1"
+}]
+

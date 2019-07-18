@@ -1,0 +1,40 @@
+[{
+    "F":"Was ist, von Sibirien aus gesehen, auf der anderen Seite der Beringstraße?",
+    "A1":"Alaska",
+    "A2":"Grönland",
+    "A3":"Russland",
+    "A4":"Kanada",
+    "correctAnswer":"Alaska"
+},
+{
+    "F":"In welcher Grafschaft befindet sich der westlichste Punkt Englands?",
+    "A1":"Lesskirk",
+    "A2":"Rosewealth",
+    "A3":"Sinkburgh",
+    "A4":"Cornwall",
+    "correctAnswer":"Cornwall"
+
+},{
+    "F":"Wie heißen die zerklüfteten Felsformationen, die man in Norwegen findet?",
+    "A1":"Risse",
+    "A2":"Klüfe",
+    "A3":"Schären",
+    "A4":"Randen",
+    "correctAnswer":"Schären"
+
+},{
+    "F":"In welches Meer mündet der Jordan?",
+    "A1":"Rote Meer",
+    "A2":"Totes Meer",
+    "A3":"Mittelmeer",
+    "A4":"Atlantik",
+    "correctAnswer":"Totes Meer"
+
+},{
+    "F":"Was ist die Hauptstadt von Togo?",
+    "A1":"Omnosga",
+    "A2":"kingulg",
+    "A3":"Arfos",
+    "A4":"Lome",
+    "correctAnswer":"Lome"
+}]

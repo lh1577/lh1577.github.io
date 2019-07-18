@@ -1,0 +1,36 @@
+[{
+    "F":"Für welches Land spielte Pele?",
+    "A1":"Mexico",
+    "A2":"Brasilien",
+    "A3":"Spanien",
+    "A4":"Polen",
+    "correctAnswer":"Brasilien"
+},{
+    "F":"Was wird vor dem Start zu einem Rodelrennen gemessen?",
+    "A1":"Die Temperatur der Kufen",
+    "A2":"Das Gewicht der Fahrer",
+    "A3":"Die Größe des Bobs",
+    "A4":"Das Gewicht des Bobs",
+    "correctAnswer":"Die Temperatur der Kufen"
+},{
+    "F":"Wie wird ein Segelwettbewerb genannt?",
+    "A1":"Windera",
+    "A2":"Planati",
+    "A3":"Segelwettbewerb",
+    "A4":"Regatta",
+    "correctAnswer":"Regatta"
+},{
+     "F":"Wie oft gewann Martina Navratilova das Einzel in Wimbledon?",
+    "A1":"4",
+    "A2":"6",
+    "A3":"9",
+    "A4":"13",
+    "correctAnswer":"9"
+},{
+     "F":"Wie nennt man die olympischen Spiele für Körperbehinderte?",
+    "A1":"Olympics",
+    "A2":"Paralympics",
+    "A3":"DFD",
+    "A4":"OG",
+    "correctAnswer":"Paralympics"
+}]

@@ -1,0 +1,40 @@
+[{
+    "F":"Was ist die Hauptstadt von Griechenland?",
+    "A1":"Athen",
+    "A2":"Sparta",
+    "A3":"Delphi",
+    "A4":"Parta",
+    "correctAnswer":"Athen"
+},
+{
+    "F":"Welcher Fluss fließt durch die Stadt Paris",
+    "A1":"Themse",
+    "A2":"Seine",
+    "A3":"Wolga",
+    "A4":"Rhone",
+    "correctAnswer":"Seine"
+
+},{
+    "F":"An welchem Fluss liegt Berlin?",
+    "A1":"Elbe",
+    "A2":"Spree",
+    "A3":"Donau",
+    "A4":"Rhein",
+    "correctAnswer":"Spree"
+
+},{
+    "F":"Was ist die Hauptstadt von England",
+    "A1":"Birmingham",
+    "A2":"Liverpool",
+    "A3":"London",
+    "A4":"Glasgow",
+    "correctAnswer":"London"
+
+},{
+    "F":"Wie heißt der höchste Berg Deutschlands",
+    "A1":"Hochwanner",
+    "A2":"Zugspitze",
+    "A3":"Watzmanner",
+    "A4":"Hochkalter",
+    "correctAnswer":"Zugspitze"
+}]

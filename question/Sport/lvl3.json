@@ -1,0 +1,36 @@
+[{
+    "F":"Wo fand im Jahr 2000 die Fußball-Europameisterschaft statt ?",
+    "A1":"Niederlande und Belgien",
+    "A2":"Marroko",
+    "A3":"Island",
+    "A4":"Polen",
+    "correctAnswer":"Niederlande und Belgien"
+},{
+    "F":"Wie viele Kegel werden beim Bowling aufgestellt?",
+    "A1":"10",
+    "A2":"9",
+    "A3":"11",
+    "A4":"8",
+    "correctAnswer":"10"
+},{
+    "F":"Wo fanden die ersten olympischen Winterspiele statt?",
+    "A1":"Charmonix",
+    "A2":"London",
+    "A3":"Laos",
+    "A4":"Moskau",
+    "correctAnswer":"Charmonix"
+},{
+    "F":"Welcher italienische Automobilrennfahrer baute 1943 seine eigene Fabrik für Rennwagen?",
+    "A1":"Enzo Ferrari",
+    "A2":"Matthias Benz",
+    "A3":"Rigel Merzedes",
+    "A4":"Reinhard Otto",
+    "correctAnswer":"Enzo Ferrari"
+},{
+    "F":"In welchen Jahr wurde Italien erstmals Fußballweltmeister?",
+    "A1":"1934",
+    "A2":"1923",
+    "A3":"1967",
+    "A4":"1939",
+    "correctAnswer":"1934"
+}]

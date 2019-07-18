@@ -1,0 +1,40 @@
+[{
+    "F":"Welche Farbe hat das Blut eines Hummers",
+    "A1":"Rot",
+    "A2":"Weiß",
+    "A3":"Gelb",
+    "A4":"Blau",
+    "correctAnswer":"Blau"
+},
+{
+    "F":"Wo findet man Lemuren?",
+    "A1":"Malediven",
+    "A2":"Madagaskar",
+    "A3":"Marroko",
+    "A4":"Indonesien",
+    "correctAnswer":"Madagaskar"
+
+},{
+    "F":"Wie schwerr ist die Zunge des Blauwals?",
+    "A1":"500kg",
+    "A2":"4 Tonnen",
+    "A3":"1 Tonne",
+    "A4":"3 Tonnen",
+    "correctAnswer":"4 Tonnen"
+
+},{
+    "F":"Was für eine Art Fisch ist der Dornhai",
+    "A1":"Hai",
+    "A2":"Wal",
+    "A3":"Makrele",
+    "A4":"Katzenfisch",
+    "correctAnswer":"Hai"
+
+},{
+    "F":"Wie lange existieren bereits Krokodile",
+    "A1":"200 Millionen Jahre",
+    "A2":"10 Millionen Jahre",
+    "A3":"50 Millionen Jahre",
+    "A4":"5 Millionen Jahre",
+    "correctAnswer":"200 Millionen Jahre"
+}]

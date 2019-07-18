@@ -1,0 +1,40 @@
+[{
+    "F":"Wo befindet sich die Blaue Grotte?",
+    "A1":"Auf Capri",
+    "A2":"Auf Hawaii",
+    "A3":"Auf den Malediven",
+    "A4":"Auf den Bahamas",
+    "correctAnswer":"Auf Capri"
+},
+{
+    "F":"Wie heißt der höchste Gipfel der Alpen",
+    "A1":"Zugspitze",
+    "A2":"Dufourspitze",
+    "A3":"Nordend",
+    "A4":"Mont Blanc",
+    "correctAnswer":"Mont Blanc"
+
+},{
+    "F":"Welche Stadt in den USA wurde 1906 durch ein Erdbeben fast vollständig zerstört?",
+    "A1":"Beverly Hills",
+    "A2":"San Fransisco",
+    "A3":"New York",
+    "A4":"Dublin",
+    "correctAnswer":"San Fransisco"
+
+},{
+    "F":"Wo lebten die Inkas?",
+    "A1":"Kolumbien",
+    "A2":"Peru",
+    "A3":"Bolivien",
+    "A4":"Ecuador",
+    "correctAnswer":"Peru"
+
+},{
+    "F":"Welches Gebirgsmassiv bildet die Granzen zwischen Europa und Asien?",
+    "A1":"Ural",
+    "A2":"Alpen",
+    "A3":"Anden",
+    "A4":"Himalaya",
+    "correctAnswer":"Ural"
+}]

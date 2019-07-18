@@ -1,0 +1,40 @@
+[{
+    "F":"Wie ist die korrekte Bezeichnung für eine Gruppe ausgewachsener Hunde?",
+    "A1":"Wurf",
+    "A2":"Rudel",
+    "A3":"Schwarm",
+    "A4":"Schule",
+    "correctAnswer":"Rudel"
+},
+{
+    "F":"Wie heißen die Atmungsorgane der Fische?",
+    "A1":"Kiemen",
+    "A2":"Hautaspiration",
+    "A3":"Lungen",
+    "A4":"Riemen",
+    "correctAnswer":"Kiemen"
+
+},{
+    "F":"Welche Vögel legen ihre Eier in fremde Nester?",
+    "A1":"Amsel",
+    "A2":"Uhu",
+    "A3":"Kuckuck",
+    "A4":"Specht",
+    "correctAnswer":"Kuckuck"
+
+},{
+    "F":"Aus welcher Substanz besteht das Körpergerüst von Käfern und Krebsen?",
+    "A1":"Keratin",
+    "A2":"Chitin",
+    "A3":"Hornschicht",
+    "A4":"Schuppen",
+    "correctAnswer":"Chitin"
+
+},{
+    "F":"Was ist das größte arktisch Raubtier?",
+    "A1":"Eisbar",
+    "A2":"Kaiserpinguin",
+    "A3":"Seerobe",
+    "A4":"Papageintaucher",
+    "correctAnswer":"Eisbar"
+}]

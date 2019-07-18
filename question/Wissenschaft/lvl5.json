@@ -1,0 +1,36 @@
+[{
+    "F":"Was ist die  Agronomie",
+    "A1":"Die Lehre der Optik",
+    "A2":"Die Lehre der Geometrie",
+    "A3":"Die Lehre des Ackerbaus",
+    "A4":"Die Lehre der Tierkunde",
+    "correctAnswer":"Die Lehre des Ackerbaus"
+},{
+    "F":"Woraus besteht ein Diamant?",
+    "A1":"Kohlenstoff",
+    "A2":"Stickstoff",
+    "A3":"Phosphor",
+    "A4":"Natrium",
+    "correctAnswer":"Kohlenstoff"
+},{
+    "F":"We gewann als erste Frau den Nobelpreis",
+    "A1":"Elisabeth Klang",
+    "A2":"Marie Curie",
+    "A3":"Yiu Shin",
+    "A4":"Mageret van Deltsch",
+    "correctAnswer":"Marie Curie "
+},{
+    "F":"Was misst ein Chronometer?",
+    "A1":"Zeit",
+    "A2":"Licht",
+    "A3":"Frequenz",
+    "A4":"Temperatur",
+    "correctAnswer":"Zeit"
+},{
+    "F":"Wie heißt der längste Knochen des menchlichen Körpers",
+    "A1":"Femur",
+    "A2":"Humerus",
+    "A3":"Tibia",
+    "A4":"Ulnar",
+    "correctAnswer":"Femur"
+}]

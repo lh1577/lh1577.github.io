@@ -32,12 +32,23 @@ function firstplay(){
     var p =  document.createElement("p");
     p.classList.add("pof");
     var pin = document.createTextNode("Highscore:"+highscore);
+    var changebutton = document.createElement("button");
+    changebutton.classList.add("PlayButton");
+    changebutton.onclick=function (){
+        changecolor();
+    }
+    var inch = document.createTextNode("Theme")
     buttonplay.appendChild(buttontext);
     p.appendChild(pin);
     div.appendChild(p);
+    changebutton.appendChild(inch);
     divtwo.appendChild(buttonplay);
+    divtwo.appendChild(changebutton);
     game.appendChild(div);
     game.appendChild(divtwo);
+}
+function changecolor(){
+    document.body.classList.toggle('light-theme')
 }
 function nextpage(){
     var categories1 = null;

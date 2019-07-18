@@ -587,7 +587,7 @@ function correctorwrong(answer,correct,url,cl,lvl){
         }
     }
     else{
-        var pin = document.createTextNode("Deine Antwort ist Falsch. "+correct+" wäre die richtige Antwort gewesen");
+        var pin = document.createTextNode("Deine Antwort ist falsch. "+correct+" wäre die richtige Antwort gewesen");
         b.onclick = function(){
 
             console.log(url,cl)

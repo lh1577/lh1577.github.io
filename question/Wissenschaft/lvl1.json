@@ -33,4 +33,11 @@
     "A3":"Merkur",
     "A4":"Sonne",
     "correctAnswer":"Jupiter"
+},{
+    "F":"Welche dieser Zahlen ist keine Primzahl?",
+    "A1":"108",
+    "A2":"37",
+    "A3":"23",
+    "A4":"29",
+    "correctAnswer":"108"
 }]

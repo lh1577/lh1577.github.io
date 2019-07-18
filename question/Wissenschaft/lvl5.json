@@ -33,4 +33,11 @@
     "A3":"Tibia",
     "A4":"Ulnar",
     "correctAnswer":"Femur"
+},{
+    "F":"Was ist schweres Wasser",
+    "A1":"Tritiumoxid",
+    "A2":"Regenwasser",
+    "A3":"Deuteriumoxid",
+    "A4":"PH7",
+    "correctAnswer":"Deuteriumoxid"
 }]

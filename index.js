@@ -122,7 +122,7 @@ function lookforcategories(event, c){
 }
 
 function startgame(){
-
+    clean=0;
     var d = document.getElementById("game");
     var di = document.createElement("div");
     var dii = document.createElement("div");
@@ -130,8 +130,9 @@ function startgame(){
     var b = document.createElement("button");
     b.classList.add("catbut");
     b.onclick = function (){
+        clean=0;
         document.getElementById("game").innerHTML="";
-        checkcategories(categorieschoosen)
+        checkcategories(categorieschoosen);
     }
     b.classList.add("buttonplay")
     var bin = document.createTextNode("Start");
@@ -139,6 +140,7 @@ function startgame(){
     b1.classList.add("catbut")
     b1.onclick = function(){
         categorieschoosen=[];
+        clean=0;
         categories = ["Sport","Wissenschaft","Geografie","Geschichte","Tiere"]
         nextpage();
     }
@@ -156,13 +158,14 @@ function startgame(){
 
 
             var l = document.createElement("button");
-            l.classList.add("catbut")
-            l.classList.add("buttonplay")
+            l.classList.add("catbut"+clean);
+
             l.onclick = function removeone(){
                 categories.push(ca);
                 deleteonin(event,ca);
 
             }
+            clean++;
             var lin = document.createTextNode(ca);
             l.appendChild(lin);
             u.appendChild(l);
@@ -198,6 +201,7 @@ function checkcategories(){
     }
     else{
         document.getElementById("backbutton").innerHTML="";
+        clean=0;
         startquiz();
     }
 }
@@ -261,7 +265,6 @@ function startquiz(){
         var ee = document.getElementById("backbutton");
         var bb = document.createElement("button");
         bb.classList.add("catbut")
-        bb.classList.add("buttonplay")
         bb.onclick = function(){
             resetakanewgame();
         }
@@ -430,7 +433,7 @@ function makethequestion(copquest,url,checklvl,copanswer,cophalf,q,lvl){
     if(joker==1){
         var e1 = document.getElementById("game");
         var j1 = document.createElement("button");
-        j1.classList.add("catbut")
+        j1.classList.add("catbut0")
 
 
         j1.onclick = function(){
@@ -464,7 +467,7 @@ function makethequestion(copquest,url,checklvl,copanswer,cophalf,q,lvl){
         var j2 = document.createElement("button");
 
 
-        j2.classList.add("catbut")
+        j2.classList.add("catbut1")
         j2.onclick = function(){
              jkil=0;
              halfhalf= 0;
@@ -497,7 +500,7 @@ function makethequestion(copquest,url,checklvl,copanswer,cophalf,q,lvl){
         var j3 = document.createElement("button");
 
 
-        j3.classList.add("catbut")
+        j3.classList.add("catbut3")
         j3.onclick = function(){
             jkil=0;
             changequest = 0;
@@ -533,7 +536,7 @@ function makethequestion(copquest,url,checklvl,copanswer,cophalf,q,lvl){
         foranswer(copanswer[i]);
         function foranswer(copa){
             var b = document.createElement("button");
-            b.classList.add("catbut")
+            b.classList.add("catbut2")
             b.onclick = function(){
                 jkil=1;
                 correctorwrong(copa,copquest.correctAnswer,url,checklvl,lvl);

@@ -470,7 +470,7 @@ function makethequestion(copquest,url,checklvl,copanswer,cophalf,q,lvl){
     }
     }
     function displaythetime(){
-        let t = document.getElementById("game");
+        let t = document.getElementById("time");
         t.innerHTML = sec;
     }
     var d3= document.createElement("div");

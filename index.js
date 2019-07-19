@@ -48,7 +48,9 @@ function firstplay(){
     game.appendChild(divtwo);
 }
 function changecolor(){
-    document.body.classList.toggle('light-theme')
+    document.body.classList.toggle('light-theme');
+    document.getElementsByClassName('PlayButton').classList.toggle('light-btn');
+
 }
 function nextpage(){
     var categories1 = null;

@@ -22,7 +22,15 @@ var highscore = 0;
 var clean=0;
 firstplay();
 function firstplay(){
-    var high = localStorage.getItem("highscore")
+    var high = localStorage.getItem("highscore")//auskommentieren bei erweiterungen
+    var brules = document.createElement("button");
+    brules.classList.add("PlayButton");
+    brules.onclick = function (){
+        document.getElementById("game").innerHTML="";
+        explaintherules()
+
+    }
+    var brule = document.createTextNode("Rules");
     var game = document.getElementById("game");
     var div = document.createElement("div");
     div.classList.add("divoflist")
@@ -34,7 +42,7 @@ function firstplay(){
     var buttontext = document.createTextNode("Play");
     var p =  document.createElement("p");
     p.classList.add("pof");
-    var pin = document.createTextNode("Highscore:"+high);
+    var pin = document.createTextNode("Highscore:"+high); //Ändern in high bei Upload bei bearbeitung in score umwandeln
     var changebutton = document.createElement("button");
     changebutton.classList.add("PlayButton");
     changebutton.onclick=function (){
@@ -42,13 +50,39 @@ function firstplay(){
     }
     var inch = document.createTextNode("Theme")
     buttonplay.appendChild(buttontext);
+    brules.appendChild(brule);
     p.appendChild(pin);
     div.appendChild(p);
     changebutton.appendChild(inch);
     divtwo.appendChild(buttonplay);
     divtwo.appendChild(changebutton);
+    divtwo.appendChild(brules);
     game.appendChild(div);
     game.appendChild(divtwo);
+}
+function explaintherules(){
+    var e = document.getElementById("game");
+    var h1 = document.createElement("h1");
+    var h1in = document.createTextNode("Die Spielregeln")
+    var p = document.createElement("p");
+    var d = document.createElement("div");
+    var pin = document.createTextNode("Bei diesem Spiel kannst du dir 4 unterschiedliche Kategorien auswählen von denen du dann jeweils Fragen gestellt bekommst. Wenn du eine Frage richtig beantwortest bekommst du 100 Punkte und das Level der Fragen steigt und damit auch die Schwierigkeit. Das höchste Level ist das Level 5, nachdem du diese Frage richtig beantwortet hast bekommst du extra Punkte. Als kleine Hilfe erhälst du pro Spiel ein Joker, ein 50:50 und einmal die Möglichkeit die Frage zu wechslen. Dein Highscore wird sogar auf der Seite gespeichert damit er auch das nächste mal wenn du dein Wissen testen möchtest da ist.");
+    var button = document.createElement("button");
+    button.classList.add("catbut")
+    var bin = document.createTextNode("Verstanden");
+    button.onclick = function(){
+        document.getElementById("game").innerHTML="";
+        firstplay();
+    }
+    button.appendChild(bin);
+    p.appendChild(pin);
+    h1.appendChild(h1in);
+    d.appendChild(h1)
+    d.appendChild(p);
+    d.appendChild(button);
+    e.appendChild(d);
+
+
 }
 function changecolor(){
     document.body.classList.toggle('light-theme');
@@ -234,6 +268,7 @@ function resetakanewgame(){
         highscore=score;
         localStorage.clear();
         localStorage.setItem("highscore",score);
+        //local Storages auskommentieren
     }
     else{
         console.log(score,highscore)

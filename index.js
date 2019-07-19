@@ -18,6 +18,8 @@ var copall = {};
 var ck = 0;
 var jkil = 1;
 var highscore = 0;
+
+var clean=0;
 firstplay();
 function firstplay(){
     var game = document.getElementById("game");
@@ -289,7 +291,7 @@ function startquiz(){
         function catd(cat,l,i){
             console.log(l)
             var b = document.createElement("button")
-            b.classList.add("catbut")
+            b.classList.add("catbut"+clean)
             var bin = document.createTextNode(cat);
             var bin1 = document.createTextNode(" Lv."+l);
             b.classList.add("buttonplay");
@@ -298,6 +300,7 @@ function startquiz(){
                 console.log(cat,l,i)
                 getthequestions(cat,l,i);
             }
+            clean++;
             b.appendChild(bin);
             b.appendChild(bin1);
             d.appendChild(b);

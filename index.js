@@ -33,6 +33,11 @@ function firstplay(){
     var brule = document.createTextNode("Rules");
     var game = document.getElementById("game");
     var div = document.createElement("div");
+    var divimg = document.createElement("div");
+    divimg.classList.add("divimg")
+    var im = document.createElement("img");
+    im.src="img/favicon.jpg";
+
     div.classList.add("divoflist")
     var divtwo = document.createElement("div");
     divtwo.classList.add("divoflist");
@@ -41,8 +46,8 @@ function firstplay(){
     buttonplay.classList.add("PlayButton");
     var buttontext = document.createTextNode("Play");
     var p =  document.createElement("p");
-    p.classList.add("pof");
-    var pin = document.createTextNode("Highscore:"+high); //Ändern in high bei Upload bei bearbeitung in score umwandeln
+    p.classList.add("phigh");
+    var pin = document.createTextNode("Highscore: "+high); //Ändern in high bei Upload bei bearbeitung in score umwandeln
     var changebutton = document.createElement("button");
     changebutton.classList.add("PlayButton");
     changebutton.onclick=function (){
@@ -54,10 +59,12 @@ function firstplay(){
     p.appendChild(pin);
     div.appendChild(p);
     changebutton.appendChild(inch);
+    divimg.appendChild(im);
     divtwo.appendChild(buttonplay);
     divtwo.appendChild(changebutton);
     divtwo.appendChild(brules);
     game.appendChild(div);
+    game.appendChild(divimg);
     game.appendChild(divtwo);
 }
 function explaintherules(){

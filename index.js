@@ -22,7 +22,7 @@ var highscore = 0;
 var clean=0;
 firstplay();
 function firstplay(){
-    var high = localStorage.getitem("highscore")
+    var high = localStorage.getItem("highscore")
     var game = document.getElementById("game");
     var div = document.createElement("div");
     div.classList.add("divoflist")

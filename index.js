@@ -233,7 +233,7 @@ function resetakanewgame(){
     if(score>highscore){
         highscore=score;
         localStorage.clear();
-        localStorage.setitem("highscore",score);
+        localStorage.setItem("highscore",score);
     }
     else{
         console.log(score,highscore)

@@ -22,6 +22,7 @@ var highscore = 0;
 var clean=0;
 firstplay();
 function firstplay(){
+    var high = localStorage.getitem("highscore")
     var game = document.getElementById("game");
     var div = document.createElement("div");
     div.classList.add("divoflist")
@@ -33,7 +34,7 @@ function firstplay(){
     var buttontext = document.createTextNode("Play");
     var p =  document.createElement("p");
     p.classList.add("pof");
-    var pin = document.createTextNode("Highscore:"+highscore);
+    var pin = document.createTextNode("Highscore:"+high);
     var changebutton = document.createElement("button");
     changebutton.classList.add("PlayButton");
     changebutton.onclick=function (){
@@ -231,6 +232,8 @@ function createEnd(){
 function resetakanewgame(){
     if(score>highscore){
         highscore=score;
+        localStorage.clear();
+        localStorage.setitem("highscore",score);
     }
     else{
         console.log(score,highscore)

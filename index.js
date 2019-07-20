@@ -270,7 +270,7 @@ function createEnd(){
     e.appendChild(d);
 }
 function resetakanewgame(){
-  var x = loalStorage.getItem("highscore")
+  var x = localStorage.getItem("highscore")
     if(score>x){
         highscore=score;
         localStorage.clear();

@@ -144,7 +144,6 @@ function lookforcategories(event, c){
     var idx = setcat.indexOf(c);
     if (idx !== -1){
        setcat.splice(idx, 1);
-
     }
     else {
         console.log("not found");
@@ -303,6 +302,8 @@ function resetakanewgame(){
             firstplay();
 }
 function startquiz(){
+  document.getElementById("time").innerHTML="";
+  sec=31;
             if(ck == 0){
         document.getElementById("backbutton").innerHTML="";
 
@@ -626,8 +627,6 @@ function correctorwrong(answer,correct,url,cl,lvl){
             document.getElementById("game").innerHTML="";
             console.log(cl[0]);
             console.log(lvl);
-
-
             for(i=0;i<6;i++){
                 if(cl==c[i]){
                     if(lvl==5){
@@ -645,9 +644,6 @@ function correctorwrong(answer,correct,url,cl,lvl){
                     console.log("error")
                 }
             }
-
-
-
         }
     }
     else{

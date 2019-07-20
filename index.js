@@ -18,7 +18,6 @@ var copall = {};
 var ck = 0;
 var jkil = 1;
 var highscore = 0;
-
 var clean=0;
 firstplay();
 function firstplay(){
@@ -271,7 +270,8 @@ function createEnd(){
     e.appendChild(d);
 }
 function resetakanewgame(){
-    if(score>highscore){
+  var x = loalStorage.getItem("highscore")
+    if(score>x){
         highscore=score;
         localStorage.clear();
         localStorage.setItem("highscore",score);

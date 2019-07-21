@@ -1,0 +1,43 @@
+[{
+    "F":"Wer war der mächtigste aller Götter in der griechischen Mythologie?",
+    "A1":"Apollo",
+    "A2":"Herakles",
+    "A3":"Zeus",
+    "A4":"Ares",
+    "correctAnswer":"Zeus"
+},{
+    "F":"Wo wohnten die Gottheiten?",
+    "A1":"im Hades",
+    "A2":"auf dem Olymp",
+    "A3":"in Tempeln",
+    "A4":"im Haus Theben",
+    "correctAnswer":"auf dem Olymp"
+},{
+    "F":"Wer bewachte das Tor zur Unterwelt?",
+    "A1":"Kerberos",
+    "A2":"Typhon",
+    "A3":"Hydra",
+    "A4":"Medusa",
+    "correctAnswer":"Kerberos"
+},{
+    "F":"Warum konnte Orpheus seine geliebte Eurydike nicht aus der Unterwelt befreien?",
+    "A1":"Kerberos ließ ihn nicht vorbeit",
+    "A2":"Weil er sie angeguckt hat",
+    "A3":"Weil er keinen Fährmann bezahlen konnte",
+    "A4":"Weil er den Eingang nicht fand",
+    "correctAnswer":"Weil er sie angeguckt hat"
+},{
+    "F":"Wie viele Taten vollbrachte Herakles?",
+    "A1":"3",
+    "A2":"12",
+    "A3":"100",
+    "A4":"78",
+    "correctAnswer":"12"
+},{
+    "F":"Apollo war der Gott der...",
+    "A1":"Weisheit",
+    "A2":"Musik",
+    "A3":"Liebe",
+    "A4":"Krieges",
+    "correctAnswer":"Musik"
+}]

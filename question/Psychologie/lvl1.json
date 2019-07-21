@@ -1,0 +1,40 @@
+[{
+    "F":"Was bedeutet Psychologie wörtlich übersetzt?",
+    "A1":"Lehre vom Menschen",
+    "A2":"Gesundheit der Menschen",
+    "A3":"Seelenkunde",
+    "A4":"Lehre der Gefühle",
+    "correctAnswer":"Seelenkunde"
+},
+{
+    "F":"Wer gilt als Begründer der Psychoanalyse?",
+    "A1":"William James",
+    "A2":"Sigmund Freud",
+    "A3":"Carl Rogers",
+    "A4":"Alfred Adler",
+    "correctAnswer":"Sigmund Freud"
+
+},{
+    "F":" Jemand der an Erythrophobie leidet hat Angst vor?",
+    "A1":"Angst vom kleinen Räumen",
+    "A2":" Angst vor Spinnen",
+    "A3":"Angst vor dem Erröten",
+    "A4":"Angst vor großen Plätzen",
+    "correctAnswer":"Angst vor dem Erröten"
+
+},{
+    "F":"Was besagt der Intelligenzquotient (IQ)?",
+    "A1":"Leistungsfähigkeit des Gedächtnis",
+    "A2":"Merkfähigkeit",
+    "A3":"Intellektuelles Leistungsvermögen",
+    "A4":"Aufnahmegeschwindigkeit",
+    "correctAnswer":" Intellektuelles Leistungsvermögen"
+
+},{
+    "F":"Jemand hat einen IQ von 70. Was sagt dieser Wert aus?",
+    "A1":" Durchschnittlich Intelligent",
+    "A2":"Unterdurchschnittlich Intelligent",
+    "A3":" Überdurchschnittlich Intelligent",
+    "A4":" leicht Überdurchschnittlich Intelligent",
+    "correctAnswer":"Unterdurchschnittlich Intelligent"
+}]

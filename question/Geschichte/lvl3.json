@@ -7,34 +7,34 @@
     "correctAnswer":"1618"
 },
 {
-    "F":"Welche russische Zarin organisierte einen Offiziersputsch, der zum Sturz und zur Ermordung ihres Mannes führte?",
-    "A1":"Katharina die 2.",
-    "A2":"Anastasia die Große",
-    "A3":"Victoria die 5.",
-    "A4":"Katharina die Große",
-    "correctAnswer":"Katharina die Große"
+    "F":"Nach welcher Religion lebte das fränkische Königreich?",
+    "A1":"Aianismus",
+    "A2":"Heidentum",
+    "A3":"Katholizismus",
+    "A4":"Islam",
+    "correctAnswer":"Katholizismus"
 
 },{
-    "F":"Welchem Pharao ist der Tempel Abu Simbel gewidmet?",
-    "A1":"Ramses der 2.",
-    "A2":"Osiris der 1.",
-    "A3":"Hedju-Hor",
-    "A4":"Ni-Neith",
-    "correctAnswer":"Ramses der 2."
+    "F":"In welcher Stadt wurde die Unabhänigkeitserklärung der Vereinigten Staaten unterzeichnet?",
+    "A1":"New York City",
+    "A2":"Ohio",
+    "A3":"Washington",
+    "A4":"Philadelphia",
+    "correctAnswer":"Philadelphia"
 
 },{
-    "F":"Welchen Titel trugen die Könige des alten Ägyptens?",
-    "A1":"Gottheit",
-    "A2":"König",
-    "A3":"Zar",
-    "A4":"Pharao",
-    "correctAnswer":"Pharao"
+    "F":"Welcher dieser Länder hatte einen Dauphin als Herrscher?",
+    "A1":"England",
+    "A2":"Spanien",
+    "A3":"Frankreich",
+    "A4":"Niederlande",
+    "correctAnswer":"Frankreich"
 
 },{
-    "F":"Welcher König von Frankreich hatte den Beinamen Sonnenkönig?",
-    "A1":"Ludwig 14.",
-    "A2":"Ludwig 16.",
-    "A3":"Ludwig 8.",
-    "A4":"Ludwig 10.",
-    "correctAnswer":"Ludwig 14."
+    "F":"Welcher dieser Persönlichkeiten wurder als Wüstenfuchs bezeichnet?",
+    "A1":"Joseph Statlin",
+    "A2":"Adolf Hitler",
+    "A3":"Paul von Hindenburg.",
+    "A4":"Erwin Rommel",
+    "correctAnswer":"Erwin Rommel"
 }]

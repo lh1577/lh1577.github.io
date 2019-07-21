@@ -1,0 +1,36 @@
+[{
+    "F":"Welche Zahlenkombination würden die meisten Menschen bei einem Zahlenschloss wählen",
+    "A1":"0-0-0",
+    "A2":"den Geburtstag",
+    "A3":"den Geburtstag des Partners",
+    "A4":"1-2-3",
+    "correctAnswer":"0-0-0"
+},{
+    "F":"Wie viel Prozent der Frauen lachen bei einem Witz eines Mannes?",
+    "A1":"39 Prozent",
+    "A2":"56 Prozent",
+    "A3":"71 Prozent",
+    "A4":"90 Prozent",
+    "correctAnswer":"71 Prozent"
+},{
+    "F":"Welche Worte versuchen Menschen unbewusst zu vermeiden, wenn sie lügen?",
+    "A1":"Sie vermeiden keine Worte",
+    "A2":"ich",
+    "A3":"du",
+    "A4":"wir",
+    "correctAnswer":"ich"
+},{
+     "F":"Welches menschenähnliche Verhalten wurde bei Elefanten beobachtet? ",
+    "A1":"das unaufällige Stehlen",
+    "A2":"kahle Elefanten bauen sich aus Heu Toupets",
+    "A3":"Bullen vergleichen die Rüsslelänge",
+    "A4":"Gar keins",
+    "correctAnswer":"das unaufällige Stehlen"
+},{
+     "F":"Welchen Einfluss hat das Abspielen von bestimmter Musik auf das Kaufverhalten der Kunden in der Weinhandlung? ",
+    "A1":"Klassik= Kunden kaufen teuren Wein",
+    "A2":"Klassik= Kauf von Überseewein",
+    "A3":"Popmusik= Kunden bleiben länger",
+    "A4":"Gar keinen",
+    "correctAnswer":"Klassik= Kunden kaufen teuren Wein"
+}]

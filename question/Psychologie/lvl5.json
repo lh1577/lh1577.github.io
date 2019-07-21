@@ -1,0 +1,22 @@
+[{
+    "F":"Wann wurde Sigmud Freud geboren?",
+    "A1":"1898",
+    "A2":"1877",
+    "A3":"1856",
+    "A4":"1867",
+    "correctAnswer":"1856"
+},{
+    "F":"Wann starb Sigmud Freud?",
+    "A1":"1948",
+    "A2":"1914",
+    "A3":"1939",
+    "A4":"1932",
+    "correctAnswer":"1939"
+},{
+    "F":"Was ist Kleptomanie",
+    "A1":"wiederkehrende Diebstähle ohne Motiv",
+    "A2":"Kontrollverlustsangst",
+    "A3":"Angst vor Katzen",
+    "A4":"Angst vor Höhen",
+    "correctAnswer":"wiederkehrende Diebstähle ohne Motiv"
+}]

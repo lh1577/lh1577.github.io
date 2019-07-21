@@ -1,0 +1,36 @@
+[{
+    "F":"Wie heißt die  griechische Muse der lyrischen Tonkunst?",
+    "A1":"Erato",
+    "A2":"Kilo",
+    "A3":"Euterpe",
+    "A4":"Kaliope",
+    "correctAnswer":"Euterpe"
+},{
+    "F":"Wer hat Python in der griechischen Mythologie getötet?",
+    "A1":"Hermes",
+    "A2":"Apollo",
+    "A3":"Zeus",
+    "A4":"Herakles",
+    "correctAnswer":"Apollo"
+},{
+    "F":"Wer ist die Mutter aller Monster in der griechischen Mythologie?",
+    "A1":"Echidna",
+    "A2":"Chimäre",
+    "A3":"Scylla",
+    "A4":"Medusa",
+    "correctAnswer":"Echidna"
+},{
+    "F":"Wo befindet sich Arkadien",
+    "A1":"Türkei",
+    "A2":"Italien",
+    "A3":"Griechenland",
+    "A4":"Es existiert nicht",
+    "correctAnswer":"Griechenland"
+},{
+    "F":"Welcher attische Riese und Räubers zwangte Reisende sich auf ein Brett zu legen?",
+    "A1":"Tityos",
+    "A2":"Prokrustes",
+    "A3":"Polypemon",
+    "A4":"Damastes",
+    "correctAnswer":"Prokrustes"
+}]

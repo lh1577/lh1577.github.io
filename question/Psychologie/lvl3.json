@@ -1,0 +1,43 @@
+[{
+    "F":"Was haben Menschen, die Angst haben durch einen Tunnel zu gehen?",
+    "A1":"Tunnelangst",
+    "A2":"Raumangst",
+    "A3":"Platzangst",
+    "A4":"Orientierungsverlustsangst",
+    "correctAnswer":"Raumangst"
+},{
+    "F":"Was besagt der Dunning-Kruger-Effekt?",
+    "A1":"Unlustige Menschen finden sich lustig",
+    "A2":"Unfreundliche Menschen halten sich für charmant",
+    "A3":"Verbohrte Menschen halten sich für innovativ",
+    "A4":"Inkompetente Menschen überschätzen sich stark",
+    "correctAnswer":"Inkompetente Menschen überschätzen sich stark"
+},{
+    "F":"Welche Aussage stimmt?",
+    "A1":"Intelligenz ist Genabhänig",
+    "A2":"Intelligenz ist Konstant",
+    "A3":"Intelligenz ist ein wissenschftliches Konstrukt",
+    "A4":"Intelligenz bezieht sich auf mathematische Fähigkeiten",
+    "correctAnswer":"Intelligenz ist ein wissenschftliches Konstrukt"
+},{
+    "F":"Bei 10 Würfel wurfen hast du 10 mal die 6 gewürflet wie hoch sit die Wahrscheinlichkeit beim nächsten wurf wieder eine 6 zu würfeln?",
+    "A1":"1/1200",
+    "A2":"1/60",
+    "A3":"1/120",
+    "A4":"1/6",
+    "correctAnswer":"1/6"
+},{
+    "F":"Woran lässt sich die Persönlichkeit eines Menschen ablesen",
+    "A1":"An seiner Handschrift",
+    "A2":"An einem Fragebogen",
+    "A3":"An einem Tintenklecks",
+    "A4":"An der Kleidung",
+    "correctAnswer":"An einem Tintenklecks"
+},{
+    "F":"Mit welchem Spruch hat man beim Speed-Dating am meisten Erfolg?",
+    "A1":"Hat Ihnen schon mal jemand gesagt, dass Sie schöne Augen haben",
+    "A2":"Warum sind sie noch Singel",
+    "A3":"Was für ein Pizza-Belag wären sie gerne?",
+    "A4":"Was machen sie beruflich",
+    "correctAnswer":"Was für ein Pizza-Belag wären sie gerne?"
+}]

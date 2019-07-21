@@ -1,0 +1,40 @@
+[{
+    "F":"Wie versuchten Daidalos und sein Sohn Ikaros von der Insel Kreta zu fliehen?",
+    "A1":"mit selbstgebauten Flügeln",
+    "A2":"mit dem Schiff",
+    "A3":"auf dem geflügelten Pferd Pegasus",
+    "A4":"durch ein Portal",
+    "correctAnswer":"mit selbstgebauten Flügeln"
+},
+{
+    "F":"Was trug Poseidon bei sich",
+    "A1":"eine Flöte",
+    "A2":"ein Zepter",
+    "A3":"einen Dreizack",
+    "A4":"einen Blitz",
+    "correctAnswer":"einen Dreizack"
+
+},{
+    "F":"Um welche Schönheit entbrannte der Trojanische Krieg?",
+    "A1":"Helena",
+    "A2":"Ariadne",
+    "A3":"Pangea",
+    "A4":"Megara",
+    "correctAnswer":"Helena"
+
+},{
+    "F":"Wie überlistete Odysseus auf seiner Irrfahrt die Sirenen, die mit ihren Gesängen vorbeifahrende Seefahrer ins Verderben lockten?",
+    "A1":"Er bindete sich die Ohren zu",
+    "A2":"Er übertönte mit einem Schrei ihre Gesänge.",
+    "A3":"Er ließ sich am Mast festbinden.",
+    "A4":"Er verstopfte sich die Ohren mit Wachs.",
+    "correctAnswer":"Er ließ sich am Mast festbinden."
+
+},{
+    "F":"Wer war der Gott des Meeres?",
+    "A1":"Herkules",
+    "A2":"Poseidon",
+    "A3":"Zeus",
+    "A4":"Artemis",
+    "correctAnswer":"Poseidon"
+}]

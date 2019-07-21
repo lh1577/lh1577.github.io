@@ -1,0 +1,38 @@
+[{
+    "F":"Was sollte man bei einer Begegnung mit dem Ungeheuer Medusa tunlichst vermeiden?",
+    "A1":"Bewegung",
+    "A2":"Blickkontakt",
+    "A3":"Geräusche",
+    "A4":"Respektlosigkeit",
+    "correctAnswer":"Blickkontakt"
+},
+{
+    "F":"Welcher Held besiegte die schreckliche Medusa?",
+    "A1":"Niemand",
+    "A2":"Theseus",
+    "A3":"Perseus",
+    "A4":"Herakles",
+    "correctAnswer":"Perseus"
+
+},{
+    "F":"Wer war auf dem Olymp für die Liebe zuständig?",
+    "A1":"Demeter und Dionysos",
+    "A2":"Artemis und Ares",
+    "A3":"Aphrodite und Eros",
+    "A4":"Zeus und Europa",
+    "correctAnswer":"Aphrodite und Eros"
+},{
+    "F":"Wer lenkte Tag für Tag den Sonnenwagen von Osten nach Westen über den Himmel?",
+    "A1":"Iris",
+    "A2":"Helios",
+    "A3":"Ares",
+    "A4":"Hermes",
+    "correctAnswer":"Helios"
+},{
+    "F":"Für welches Ungeheuer wurde eigens ein Labyrinth errichtet, um es einzusperren?",
+    "A1":"Minotaurus",
+    "A2":"Sphinx",
+    "A3":"Nemeischen Löwen",
+    "A4":"Medusa",
+    "correctAnswer":"Minotaurus"
+}]

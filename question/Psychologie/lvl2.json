@@ -1,0 +1,38 @@
+[{
+    "F":"Was ist Klaustrophobie?",
+    "A1":" Angst vor Spinnen",
+    "A2":"Angst vor großen Plätzen",
+    "A3":" Angst vor Eingesperrtsein ",
+    "A4":"Angst vor großen Höhen",
+    "correctAnswer":" Angst vor Eingesperrtsein "
+},
+{
+    "F":"Was ist Platzangst?",
+    "A1":"Angst vor Aufritten",
+    "A2":"Angst vor engen Räumen",
+    "A3":"Angst vor großen Höhen",
+    "A4":"Angst vor großen Plätzen",
+    "correctAnswer":"Angst vor großen Plätzen"
+
+},{
+    "F":":Wir schrieb das Buch Kritik der reinen Vernunft?",
+    "A1":" Sigmund Freud",
+    "A2":" Karen Horney",
+    "A3":" Immanuel Kant",
+    "A4":"Karen Horney",
+    "correctAnswer":"Immanuel Kant"
+},{
+    "F":"Wie nennt man das Gebiet welches die Veränderungen menschlichen Erlebens und Verhaltens über die gesamte Lebensspanne behandelt?",
+    "A1":" Allgemeine Psychologie",
+    "A2":" Sozialpsychologie ",
+    "A3":" Biopsychologie",
+    "A4":" Entwicklungspsychologie",
+    "correctAnswer":" Entwicklungspsychologie"
+},{
+    "F":"Wie bezeichnet man allgemein die gezielte professionelle Behandlung psychischer Störungen mit psychologischen Mitteln?",
+    "A1":" Psychotherapie",
+    "A2":" Pyschoabc",
+    "A3":" Psychoverfahren",
+    "A4":" Psychowelt",
+    "correctAnswer":" Psychotherapie"
+}]

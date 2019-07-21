@@ -1,0 +1,36 @@
+[{
+    "F":"Wie hieß das Blut der Götter in der griehischen Mythologie?",
+    "A1":"Ambrosia",
+    "A2":"Orchalcum",
+    "A3":"Amryta",
+    "A4":"Ichor",
+    "correctAnswer":"Ichor"
+},{
+    "F":"Der hellste Stern im Sternbild Zwilling ist?",
+    "A1":"Pollux",
+    "A2":"Prokyon",
+    "A3":"Beteigeuze",
+    "A4":"Regulus",
+    "correctAnswer":"Pollux"
+},{
+    "F":"Wie hieß die Königin von Kreta, die Mutter des Minotaurus?",
+    "A1":"Dirke",
+    "A2":"Akalla",
+    "A3":"Philomela",
+    "A4":"Pasiphae",
+    "correctAnswer":"Pasiphae"
+},{
+     "F":"Wer ist die Mutter von den Zwillingen Apollo und Artemis?",
+    "A1":"Selene",
+    "A2":"Minerva",
+    "A3":"Athena",
+    "A4":"Leto",
+    "correctAnswer":"Leto"
+},{
+     "F":"Welchem Gott waren die alten Olympischen Spiele geweiht?",
+    "A1":"Dionysus",
+    "A2":"Apollo",
+    "A3":"Ares",
+    "A4":"Zeus",
+    "correctAnswer":"Zeus"
+}]

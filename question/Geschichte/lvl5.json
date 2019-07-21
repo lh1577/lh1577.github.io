@@ -1,40 +1,40 @@
 [{
-    "F":"Welche ansteckende Krankheit entvölkerte im Mittelalter halb Europa?",
-    "A1":"Ebola",
-    "A2":"Cholera",
-    "A3":"Malaria",
-    "A4":"Pest",
-    "correctAnswer":"Pest"
+    "F":"Wer umreiste das erste mal um die Welt?",
+    "A1":"Vespucci",
+    "A2":"Magellan",
+    "A3":"Columbus",
+    "A4":"James Cook",
+    "correctAnswer":"Magellan"
 },
 {
-    "F":"Welche russische Zarin organisierte einen Offiziersputsch, der zum Sturz und zur Ermordung ihres Mannes führte?",
-    "A1":"Katharina die 2.",
-    "A2":"Anastasia die Große",
-    "A3":"Victoria die 5.",
-    "A4":"Katharina die Große",
-    "correctAnswer":"Katharina die Große"
+    "F":"Wie hieß der letzte Kaiser des byzantinischen Reiches?",
+    "A1":"Maximus Erstulas",
+    "A2":"Manuele Kommenose",
+    "A3":"Konstantin Palaiologos",
+    "A4":"Leontios",
+    "correctAnswer":"Konstantin Palaiologos"
 
 },{
-    "F":"Welchem Pharao ist der Tempel Abu Simbel gewidmet?",
-    "A1":"Ramses der 2.",
-    "A2":"Osiris der 1.",
-    "A3":"Hedju-Hor",
-    "A4":"Ni-Neith",
-    "correctAnswer":"Ramses der 2."
+    "F":"Im welchem Jahr betraten die USA den Ersten Weltkrieg?",
+    "A1":"1914",
+    "A2":"1915",
+    "A3":"1917",
+    "A4":"1918",
+    "correctAnswer":"1917"
 
 },{
-    "F":"Welchen Titel trugen die Könige des alten Ägyptens?",
-    "A1":"Gottheit",
-    "A2":"König",
-    "A3":"Zar",
-    "A4":"Pharao",
-    "correctAnswer":"Pharao"
+    "F":"Welcher dieser Personen ist als Vater der indischen Renaissane?",
+    "A1":"Bhaghat Sinigh",
+    "A2":"Lajail Ray",
+    "A3":"Vivekanderula",
+    "A4":"Raja Ram Mohan Roy",
+    "correctAnswer":"Raja Ram Mohan Roy"
 
 },{
-    "F":"Welcher König von Frankreich hatte den Beinamen Sonnenkönig?",
-    "A1":"Ludwig 14.",
-    "A2":"Ludwig 16.",
-    "A3":"Ludwig 8.",
-    "A4":"Ludwig 10.",
-    "correctAnswer":"Ludwig 14."
+    "F":"Wie viel hat die USA ungefähr pro Acker für Alaska bezahlt?",
+    "A1":"0.02$",
+    "A2":"200$",
+    "A3":"2$",
+    "A4":"0.002$",
+    "correctAnswer":"0.002$"
 }]

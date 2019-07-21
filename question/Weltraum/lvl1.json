@@ -1,0 +1,40 @@
+[{
+    "F":"Wie viele Planeten kreisen um unsere Sonne?",
+    "A1":"8",
+    "A2":"11",
+    "A3":"10",
+    "A4":"9",
+    "correctAnswer":"8"
+},
+{
+    "F":"Wer behauptete die Sonne kreise um die Erde?",
+    "A1":"Johannes Kepler",
+    "A2":"Albert Einstein",
+    "A3":"Nikolaus Kopernikus",
+    "A4":"Isaac Newton",
+    "correctAnswer":"Nikolaus Kopernikus"
+
+},{
+    "F":"Wer erforscht Planeten?",
+    "A1":"Astrobiologen",
+    "A2":"Astrologen",
+    "A3":"Astronauten",
+    "A4":"Astrophysiker",
+    "correctAnswer":"Astrobiologen"
+
+},{
+    "F":"Woraus besteht die Milchstraße?",
+    "A1":"Wassertropfen",
+    "A2":"Milch",
+    "A3":"Sternen",
+    "A4":"Staub",
+    "correctAnswer":"Sternen"
+
+},{
+    "F":"Welches dieser Phänomene ist nicht im Weltall anzutreffen?",
+    "A1":"Rote Riesen",
+    "A2":"Weiße Zwerge",
+    "A3":"Grüne Riesen",
+    "A4":"Braune Zwerges",
+    "correctAnswer":"Grüne Riesen"
+}]

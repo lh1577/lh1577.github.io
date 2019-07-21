@@ -1,0 +1,47 @@
+[{
+    "F":"In welchem Land gibt es die meisten Raumfahrerinnen?",
+    "A1":"Russland",
+    "A2":"Deutschland",
+    "A3":"USA",
+    "A4":"China",
+    "correctAnswer":"USA"
+},
+{
+    "F":"Wie lange war Kosmonaut Waleri Poljakow im Weltall?",
+    "A1":"365 Tage ",
+    "A2":"180 Tage",
+    "A3":"437 Tage",
+    "A4":"229 Tage",
+    "correctAnswer":"437 Tage"
+
+},{
+    "F":"Wer war die erste Frau im Weltall?",
+    "A1":"Susan Bnolitzik",
+    "A2":"Walentina Tereschkowa",
+    "A3":"Andrejia Gerbert",
+    "A4":"Bisher Niemand",
+    "correctAnswer":"Walentina Tereschkowa"
+
+},{
+    "F":"Wie viele Sterne befinden sich in der Milchstraße?",
+    "A1":"10 Millionen",
+    "A2":"1 Milliarde",
+    "A3":"100 Milliarde",
+    "A4":"100 Millionen",
+    "correctAnswer":"100 Milliarden"
+
+},{
+    "F":"Vor wie vielen Jahren entstand das Universum?",
+    "A1":"14,9 Milliarden Jahren",
+    "A2":"30 Milliarden Jahren",
+    "A3":"13,8 Milliarden Jahren",
+    "A4":"18,3 Milliarden Jahren",
+    "correctAnswer":"13,8 Milliarden Jahren"
+},{
+    "F":"Welcher bedeutender Astrophysiker starb am 14.03.2018 ?",
+    "A1":"Stephen Hawking",
+    "A2":"Jürgen Ehlers",
+    "A3":"Margherita Hack",
+    "A4":"Sally Ride",
+    "correctAnswer":"Stephen Hawking"
+}]

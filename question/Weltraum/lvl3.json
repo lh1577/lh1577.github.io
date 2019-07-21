@@ -1,0 +1,41 @@
+[{
+    "F":"Wie lautet die Abkürzung für die Internationale Raumstation?",
+    "A1":"IRA",
+    "A2":"ISS",
+    "A3":"IRS",
+    "A4":"Mir",
+    "correctAnswer":"ISS"
+},
+{
+    "F":"Was strahlt nach Sonne und Mond am hellsten?",
+    "A1":"Mars",
+    "A2":"Venus",
+    "A3":"Jupiter",
+    "A4":"Merkur",
+    "correctAnswer":"Venus"
+},
+{
+    "F":"Wie groß ist der Kosmos?",
+    "A1":"1000 000 000 000 000 000 000 000 km",
+    "A2":"1000 000 000 000 000 000 000 km",
+    "A3":"1000 000 000 000 000 000 km",
+    "A4":"1 000 000 000 000 000 000 km",
+    "correctAnswer":"1000 000 000 000 000 000 000 000 km"
+
+},{
+    "F":"Was bedeutet NASA?",
+    "A1":"National Astronautics and Space Administration.",
+    "A2":"National Aeronautics and Space Administration.",
+    "A3":"New Astronautic and Space Administration.",
+    "A4":"New Aeronautics and Space Administration,",
+    "correctAnswer":"National Aeronautics and Space Administration."
+
+},{
+    "F":"Wie warm ist die Sonne an der Oberfläche?",
+    "A1":"7600°C",
+    "A2":"5500°C",
+    "A3":"14000°C",
+    "A4":"3400°C",
+    "correctAnswer":"5500°C"
+
+}]

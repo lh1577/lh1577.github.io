@@ -1,0 +1,40 @@
+[{
+    "F":"Welches Tier hatte die Erde als erstes umrundet un kehrte erfolgreich zurück?",
+    "A1":"Hund",
+    "A2":"Schimpanse",
+    "A3":"Schildkröte",
+    "A4":"Fliege",
+    "correctAnswer":"Hund"
+},
+{
+    "F":"Auf welchem Planeten landete erstmal ein von Menschenhand gemachtes Objekt?",
+    "A1":"Mars",
+    "A2":"Saturn",
+    "A3":"Merkur",
+    "A4":"Venus",
+    "correctAnswer":"Venus"
+
+},{
+    "F":"Welcher dieser Raumfaher war als erstes im offenen All?",
+    "A1":"John Glenn",
+    "A2":"Edward White",
+    "A3":"Yuri Gagarin",
+    "A4":"Alexej Leonow",
+    "correctAnswer":"Alexej Leonow"
+
+},{
+    "F":"Wie länge war ein Mensch am längsten auf dem Mond?",
+    "A1":"75 Stunden",
+    "A2":"48 Stunden",
+    "A3":"5 Stunden",
+    "A4":"2 Stunden",
+    "correctAnswer":"75 Stunden"
+
+},{
+    "F":"Wer hat als erster ein Weltraumsystem zur Multiverwendung ins All gemacht?",
+    "A1":"Noch niemand",
+    "A2":"Die UdSSR mit Buran",
+    "A3":"Die USA mit dem  Space Shuttle",
+    "A4":"SpaceX mit Flacon 9",
+    "correctAnswer":"Die USA mit dem  Space Shuttle"
+},]

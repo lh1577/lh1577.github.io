@@ -1,0 +1,40 @@
+[{
+    "F":"Wie weit ist die Erde vom Mond entfernt?",
+    "A1":"1.290.453 Kilometer",
+    "A2":"423.590 Kilometer",
+    "A3":"1.230 Kilometer",
+    "A4":"384.400 Kilometer",
+    "correctAnswer":"384.400 Kilometer"
+},
+{
+    "F":"Wie lange brauch ungefähr das Licht, um von der Sonne zur Erde zu gelangen?",
+    "A1":"1 Stunden",
+    "A2":"32 Sekunden",
+    "A3":"3 Minuten",
+    "A4":"8 Minuten",
+    "correctAnswer":"8 Minuten"
+
+},{
+    "F":"Wie oft müsste man den Durchmesser der Erde aneinander reihen damit er dem Durchmesser der Sonne gleich ist?",
+    "A1":"5-mal",
+    "A2":"23-mal",
+    "A3":"109-mal",
+    "A4":"214-mal",
+    "correctAnswer":"109-mal"
+
+},{
+    "F":"Was sind Asteroide?",
+    "A1":"Monde",
+    "A2":"Polarlichter",
+    "A3":"Sternschnuppen",
+    "A4":"Meteore",
+    "correctAnswer":"Monde"
+
+},{
+    "F":"Wie hieß das erste Lebewesen im All?",
+    "A1":"Laika",
+    "A2":"Marley",
+    "A3":"Lassie",
+    "A4":"Dodo",
+    "correctAnswer":"Laika"
+}]

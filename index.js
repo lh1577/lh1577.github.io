@@ -1,4 +1,4 @@
-var categories =["Sport","Wissenschaft","Geografie","Tiere","Geschichte","Mythologie","Psychologie"]
+var categories =["Sport","Wissenschaft","Geografie","Tiere","Geschichte","Mythologie","Psychologie","Weltraum"]
 var categorieschoosen=[];
 k = 1;
 var score = 0;
@@ -182,7 +182,7 @@ function startgame(){
     b1.onclick = function(){
         categorieschoosen=[];
         clean=0;
-        categories = ["Sport","Wissenschaft","Geografie","Geschichte","Tiere","Mythologie","Psychologie"]
+        categories = ["Sport","Wissenschaft","Geografie","Geschichte","Tiere","Mythologie","Psychologie","Weltraum"]
         nextpage();
     }
     var b1in = document.createTextNode("Neu");
@@ -294,7 +294,7 @@ function resetakanewgame(){
              cophalf=[]
              changequest = 1;
              copall = {}
-            categories = ["Sport","Wissenschaft","Geografie","Geschichte","Tiere","Mythologie","Psychologie"]
+            categories = ["Sport","Wissenschaft","Geografie","Geschichte","Tiere","Mythologie","Psychologie","Weltraum"]
              count = 0;
              categorieschoosen=[];
             k = 1;

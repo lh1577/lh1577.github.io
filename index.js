@@ -1,4 +1,4 @@
-var categories =["Sport","Wissenschaft","Geografie","Tiere","Geschichte","Mythologie","Psychologie","Weltraum"]
+var categories =["Sport","Wissenschaft","Geografie","Tiere","Geschichte","Mythologie","Psychologie"]
 var categorieschoosen=[];
 k = 1;
 var score = 0;
@@ -19,6 +19,7 @@ var ck = 0;
 var jkil = 1;
 var highscore = 0;
 var clean=0;
+var questions;
 firstplay();
 function firstplay(){
     var high = localStorage.getItem("highscore")//auskommentieren bei erweiterungen
@@ -182,7 +183,7 @@ function startgame(){
     b1.onclick = function(){
         categorieschoosen=[];
         clean=0;
-        categories = ["Sport","Wissenschaft","Geografie","Geschichte","Tiere","Mythologie","Psychologie","Weltraum"]
+        categories = ["Sport","Wissenschaft","Geografie","Geschichte","Tiere","Mythologie","Psychologie"]
         nextpage();
     }
     var b1in = document.createTextNode("Neu");
@@ -277,9 +278,6 @@ function resetakanewgame(){
         localStorage.setItem("highscore",score);
         //local Storages auskommentieren
     }
-    else{
-        console.log(score,highscore)
-    }
         document.getElementById("game").innerHTML="";
         document.getElementById("backbutton").innerHTML="";
             jkil=1;
@@ -294,7 +292,7 @@ function resetakanewgame(){
              cophalf=[]
              changequest = 1;
              copall = {}
-            categories = ["Sport","Wissenschaft","Geografie","Geschichte","Tiere","Mythologie","Psychologie","Weltraum"]
+            categories = ["Sport","Wissenschaft","Geografie","Geschichte","Tiere","Mythologie","Psychologie"]
              count = 0;
              categorieschoosen=[];
             k = 1;
@@ -334,12 +332,10 @@ function startquiz(){
     d.classList.add("divoflist")
     p.appendChild(pin);
     dik.appendChild(p);
-    console.log(l)
     for(i=0;i<categorieschoosen.length;i++){
         catd(categorieschoosen[i],l[i],c[i]);
 
         function catd(cat,l,i){
-            console.log(l)
             var b = document.createElement("button")
             b.classList.add("catbut"+clean)
             var bin = document.createTextNode(cat);
@@ -347,7 +343,6 @@ function startquiz(){
             b.classList.add("buttonplay");
             b.onclick = function getquestions(){
                 document.getElementById("game").innerHTML="";
-                console.log(cat,l,i)
                 getthequestions(cat,l,i);
             }
             clean++;
@@ -393,7 +388,6 @@ function sendRequest(url, callback) {
     else {
 
         callback(cache[url]);
-        console.log("not found")
 
     }
 
@@ -401,9 +395,9 @@ function sendRequest(url, callback) {
 
 function getthequestions(url,lvl,checklvl){
     sendRequest("question/"+url+"/"+"lvl"+lvl+".json", function(data){
-        var questions = JSON.parse(data);
+      console.log(JSON.parse(data))
+        questions = JSON.parse(data);
         copall = questions;
-        console.log(copall);
         makethenumber(copall,url,checklvl,lvl);
 
 
@@ -578,7 +572,6 @@ function makethequestion(copquest,url,checklvl,copanswer,cophalf,q,lvl){
     e.appendChild(dpka);
     var dg = document.createElement("div");
     dg.classList.add("divoflist")
-    console.log(copanswer)
     for(i=0;i<copanswer.length;i++){
         foranswer(copanswer[i]);
         function foranswer(copa){
@@ -619,15 +612,10 @@ function correctorwrong(answer,correct,url,cl,lvl){
     var dd = document.createElement("div");
     dd.classList.add("divoflist")
     if(answer==correct){
-        console.log(cl);
-        console.log(url);
-        console.log(lvl)
         score = score + 100;
         var pin = document.createTextNode("Richtig!!");
         b.onclick = function(){
             document.getElementById("game").innerHTML="";
-            console.log(cl[0]);
-            console.log(lvl);
             for(i=0;i<6;i++){
                 if(cl==c[i]){
                     if(lvl==5){
@@ -640,9 +628,6 @@ function correctorwrong(answer,correct,url,cl,lvl){
                         checkcategories();
                     }
 
-                }
-                else{
-                    console.log("error")
                 }
             }
         }

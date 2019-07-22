@@ -1,134 +1,269 @@
+
+
 <!DOCTYPE html>
+
 <html>
+
 <head>
-    <title>Quiz</title>
-    <link rel="icon" href="img/favicon.jpg">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style type="text/css">
-        body{
 
-            font-family: Helvetica, sans-serif;
-            background: #333;
-            color:#FFF;
-            text-align:center;
-        }
-        .img{
-          border-radius: 8px;
-        }
-        .light-theme{
-            background:#FFF;
-            color:#333;
+ <title>Quiz</title>
 
-        }
-        #timer{
-            display:none;
-            display:flex;
-            justify-content:center;
+ <link rel="icon" href="img/favicon.jpg">
 
-        }
-        .PlayButton{
-            padding:10px;
-            background-color:#333;
-            color:#FFF;
-            border:1px solid #FFF ;
-            border-radius: 8px;
-            font-size:1.3em;
-            margin:10px;
-        }
-        .divplayfirst{
-            height:100%;
-            width:100%;
-            display:flex;
-            justify-content: center;
-        }
-        .divoflist{
-            display:flex;
-            justify-content: center;
-        }
-        .pof{
-            font-size:1.4em;
-        }
-        .catbut{
-            padding:10px;
-            border:1px solid #FFF;
-            border-radius: 8px;
-            margin:5px;
-            font-size:1.2em;
-            color:#FFF;
-            background-color:#333;
+ <meta charset="utf-8">
 
-        }
-        .catbut0 {
-            padding:10px;
-            background:#D92414;
-            color:#FFFFFF;
-            border:1px solid #FFF;
-            border-radius: 8px;
-            margin:5px;
-            font-size:1.2em;
-        }
-        .catbut1 {
-            padding:10px;
-            background:#F23D6D;
-            color:#FFFFFF;
-            border:1px solid #FFF;
-            border-radius: 8px;
-            margin:5px;
-            font-size:1.2em;
-        }
-        .catbut2 {
-            padding:10px;
-            background:#04B2D9;
-            color:#FFFFFF;
-            border:1px solid #FFF;
-            border-radius: 8px;
-            margin:5px;
-            font-size:1.2em;
-        }
-        .catbut3 {
-            padding:10px;
-            background:#F9B413;
-            color:#FFFFFF;
-            border:1px solid #FFF;
-            border-radius: 8px;
-            margin:5px;
-            font-size:1.2em;
-        }
-        .lastdiv{
-            border:1px solid white;
-            border-radius:8px;
-        }
-        .divimg{
-            display:flex;
-            justify-content: center;
-            margin-bottom:20px;
-            margin-top:20px;
-        }
-        #game{
-            height:100%;
-            display:flex;
-            justify-content: center;
-            flex-direction: column;
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        }
-        .phigh{
-            font-size:1.8em;
-        }
-    </style>
+ <style type="text/css">
+
+     body{
+
+
+
+         font-family: Helvetica, sans-serif;
+
+         background: #333;
+
+         color:#FFF;
+
+         text-align:center;
+
+     }
+
+     .img{
+
+       border-radius: 8px;
+
+     }
+
+     .light-theme{
+
+         background:#FFF;
+
+         color:#333;
+
+
+
+     }
+
+     #timer{
+
+         display:none;
+
+         display:flex;
+
+         justify-content:center;
+
+
+
+     }
+
+     .PlayButton{
+
+         padding:10px;
+
+         background-color:#333;
+
+         color:#FFF;
+
+         border:1px solid #FFF ;
+
+         border-radius: 8px;
+
+         font-size:1.3em;
+
+         margin:10px;
+
+     }
+
+     .divplayfirst{
+
+         height:100%;
+
+         width:100%;
+
+         display:flex;
+
+         justify-content: center;
+
+     }
+
+     .divoflist{
+
+         display:flex;
+
+         justify-content: center;
+
+     }
+
+     .pof{
+
+         font-size:1.4em;
+
+     }
+
+     .catbut{
+
+         padding:10px;
+
+         border:1px solid #FFF;
+
+         border-radius: 8px;
+
+         margin:5px;
+
+         font-size:1.2em;
+
+         color:#FFF;
+
+         background-color:#333;
+
+
+
+     }
+
+     .catbut0 {
+
+         padding:10px;
+
+         background:#D92414;
+
+         color:#FFFFFF;
+
+         border:1px solid #FFF;
+
+         border-radius: 8px;
+
+         margin:5px;
+
+         font-size:1.2em;
+
+     }
+
+     .catbut1 {
+
+         padding:10px;
+
+         background:#F23D6D;
+
+         color:#FFFFFF;
+
+         border:1px solid #FFF;
+
+         border-radius: 8px;
+
+         margin:5px;
+
+         font-size:1.2em;
+
+     }
+
+     .catbut2 {
+
+         padding:10px;
+
+         background:#04B2D9;
+
+         color:#FFFFFF;
+
+         border:1px solid #FFF;
+
+         border-radius: 8px;
+
+         margin:5px;
+
+         font-size:1.2em;
+
+     }
+
+     .catbut3 {
+
+         padding:10px;
+
+         background:#F9B413;
+
+         color:#FFFFFF;
+
+         border:1px solid #FFF;
+
+         border-radius: 8px;
+
+         margin:5px;
+
+         font-size:1.2em;
+
+     }
+
+     .lastdiv{
+
+         border:1px solid white;
+
+         border-radius:8px;
+
+     }
+
+     .divimg{
+
+         display:flex;
+
+         justify-content: center;
+
+         margin-bottom:20px;
+
+         margin-top:20px;
+
+     }
+
+     #game{
+
+         height:100%;
+
+         display:flex;
+
+         justify-content: center;
+
+         flex-direction: column;
+
+
+
+     }
+
+     .phigh{
+
+         font-size:1.8em;
+
+     }
+
+ </style>
+
 </head>
+
 <body>
 
-        <div id ="timer">
-            <p id="time"></p>
-        </div>
-        <div id ="Jo"></div>
 
-    <div id="game">
 
-    </div>
-    <div id="backbutton"></div>
+     <div id ="timer">
 
-    <script type="text/javascript" src="index.js"></script>
+         <p id="time"></p>
+
+     </div>
+
+     <div id ="Jo"></div>
+
+
+
+ <div id="game">
+
+
+
+ </div>
+
+ <div id="backbutton"></div>
+
+
+
+ <script type="text/javascript" src="index.js"></script>
+
 </body>
+
 </html>

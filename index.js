@@ -514,13 +514,7 @@ function createEnd(){
     e.appendChild(d);
 }
 function resetakanewgame(){
-  var x = localStorage.getItem("highscore");
-    if(score>x){
-        highscore=score;
-        localStorage.removeItem("highscore")
-        localStorage.setItem("highscore",score);
-        //local Storages auskommentieren
-    }
+
             score=0;
             jkil=1;
              l = ["1","1","1","1","1"]
@@ -546,12 +540,18 @@ function resetakanewgame(){
             firstplay();
           }
 function checkthearchievment(){
+  var x = localStorage.getItem("highscore");
+    if(score>x){
+        highscore=score;
+        localStorage.removeItem("highscore")
+        localStorage.setItem("highscore",score);
+        //local Storages auskommentieren
+    }
   var a = localStorage.getItem("A");//Anfänger
   var a1 = localStorage.getItem("A1");//Fortgeschrittener
   var a2 = localStorage.getItem("A2");//Explorer
   var a3= localStorage.getItem("A3");//Höchstpunktzahl
   var a4= localStorage.getItem("A4");//Alleingänger
-  var a5= localStorage.getItem("A5");//Champion
   var y = joker+changequest+halfhalf;
     if(a==null){
       if(score >= 500){
@@ -594,15 +594,22 @@ function checkthearchievment(){
       }
 
     }
-    if(a4!=null && a3!=null && a2!=null && a1!=null && a!=null){
-      localStorage.setItem("arc5","Champion");
-      localStorage.setItem("A5","1");
-      efor.push("Champion");
-    }
+
     getachievment();
 
 }
 function getachievment(){
+  var a = localStorage.getItem("A");//Anfänger
+  var a1 = localStorage.getItem("A1");//Fortgeschrittener
+  var a2 = localStorage.getItem("A2");//Explorer
+  var a3= localStorage.getItem("A3");//Höchstpunktzahl
+  var a4= localStorage.getItem("A4");//Alleingänger
+  var a5= localStorage.getItem("A5");//Champion
+  if(a4!=null && a3!=null && a2!=null && a1!=null && a!=null){
+    localStorage.setItem("arc5","Champion");
+    localStorage.setItem("A5","1");
+    efor.push("Champion");
+  }
   var kol = 1;
   document.getElementById("game").innerHTML="";
 

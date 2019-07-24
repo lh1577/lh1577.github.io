@@ -1,269 +1,201 @@
-
-
 <!DOCTYPE html>
-
 <html>
-
 <head>
-
- <title>Quiz</title>
-
- <link rel="icon" href="img/favicon.jpg">
-
- <meta charset="utf-8">
-
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
- <style type="text/css">
-
-     body{
-
-
-
-         font-family: Helvetica, sans-serif;
-
-         background: #333;
-
-         color:#FFF;
-
-         text-align:center;
-
-     }
-
-     .img{
-
-       border-radius: 8px;
-
-     }
-
-     .light-theme{
-
-         background:#FFF;
-
-         color:#333;
-
-
-
-     }
-
-     #timer{
-
-         display:none;
-
-         display:flex;
-
-         justify-content:center;
-
-
-
-     }
-
-     .PlayButton{
-
-         padding:10px;
-
-         background-color:#333;
-
-         color:#FFF;
-
-         border:1px solid #FFF ;
-
-         border-radius: 8px;
-
-         font-size:1.3em;
-
-         margin:10px;
-
-     }
-
-     .divplayfirst{
-
-         height:100%;
-
-         width:100%;
-
-         display:flex;
-
-         justify-content: center;
-
-     }
-
-     .divoflist{
-
-         display:flex;
-
-         justify-content: center;
-
-     }
-
-     .pof{
-
-         font-size:1.4em;
-
-     }
-
-     .catbut{
-
-         padding:10px;
-
-         border:1px solid #FFF;
-
-         border-radius: 8px;
-
-         margin:5px;
-
-         font-size:1.2em;
-
-         color:#FFF;
-
-         background-color:#333;
-
-
-
-     }
-
-     .catbut0 {
-
-         padding:10px;
-
-         background:#D92414;
-
-         color:#FFFFFF;
-
-         border:1px solid #FFF;
-
-         border-radius: 8px;
-
-         margin:5px;
-
-         font-size:1.2em;
-
-     }
-
-     .catbut1 {
-
-         padding:10px;
-
-         background:#F23D6D;
-
-         color:#FFFFFF;
-
-         border:1px solid #FFF;
-
-         border-radius: 8px;
-
-         margin:5px;
-
-         font-size:1.2em;
-
-     }
-
-     .catbut2 {
-
-         padding:10px;
-
-         background:#04B2D9;
-
-         color:#FFFFFF;
-
-         border:1px solid #FFF;
-
-         border-radius: 8px;
-
-         margin:5px;
-
-         font-size:1.2em;
-
-     }
-
-     .catbut3 {
-
-         padding:10px;
-
-         background:#F9B413;
-
-         color:#FFFFFF;
-
-         border:1px solid #FFF;
-
-         border-radius: 8px;
-
-         margin:5px;
-
-         font-size:1.2em;
-
-     }
-
-     .lastdiv{
-
-         border:1px solid white;
-
-         border-radius:8px;
-
-     }
-
-     .divimg{
-
-         display:flex;
-
-         justify-content: center;
-
-         margin-bottom:20px;
-
-         margin-top:20px;
-
-     }
-
-     #game{
-
-         height:100%;
-
-         display:flex;
-
-         justify-content: center;
-
-         flex-direction: column;
-
-
-
-     }
-
-     .phigh{
-
-         font-size:1.8em;
-
-     }
-
- </style>
-
+    <title>Quiz</title>
+    <link rel="icon" href="img/favicon.jpg" class ="ikon">
+    <meta charset="utf-8">
+    <script src="https://kit.fontawesome.com/9d96e19381.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        body{
+
+            font-family: Helvetica, sans-serif;
+            background: #333;
+            color:#FFF;
+            text-align:center;
+        }
+        .ikon{
+          broder-radius:12px;
+        }
+        .ula{
+          text-align:left;
+          font-size:1.2em;
+          color:#333;
+          background-color:#FFF;
+          padding:20px;
+          margin:10px;
+          border-radius:12px;
+          list-style-type: none;
+        }
+        .liar{
+          margin:10px;
+        }
+        .par{
+          color:#333;
+          background-color:#FFF;
+          padding:10px;
+          border:none;
+          margin-bottom: 0;
+
+        }
+        .biar{
+          width:150px;
+          color:#333;
+          background-color: #FFF;
+          border:1px solid #FFF;
+          border-radius:12px;
+          padding:10px;
+          margin:20px;
+
+        }
+        #achiev{
+          display: flex;
+          justify-content: center;
+        }
+
+        .pe{
+          padding:20px;
+          margin:20px;
+          border-radius:8px;
+          border:1px solid #FFF;
+        }
+        .iar{
+          color:white;
+          padding:15px;
+
+        }
+        .dar{
+          background-color:#333;
+          width:150px;
+          height:150px;
+          border-radius:8px;
+          margin:10px;
+          border:1px solid white;
+        }
+        .diar{
+          display:flex;
+          justify-content: center;
+          flex-direction: row;
+
+        }
+        .img{
+          border-radius: 8px;
+
+        }
+        .light-theme{
+            background:#FFF;
+            color:#333;
+
+        }
+        #timer{
+            display:none;
+            display:flex;
+            justify-content:center;
+
+        }
+        .PlayButton{
+            padding:10px;
+            background-color:#333;
+            color:#FFF;
+            border:1px solid #FFF ;
+            border-radius: 8px;
+            font-size:1.3em;
+            margin:10px;
+        }
+        .divplayfirst{
+            height:100%;
+            width:100%;
+            display:flex;
+            justify-content: center;
+        }
+        .divoflist{
+            display:flex;
+            justify-content: center;
+        }
+        .pof{
+            font-size:1.4em;
+        }
+        .catbut{
+            padding:10px;
+            border:1px solid #FFF;
+            border-radius: 8px;
+            margin:5px;
+            font-size:1.2em;
+            color:#FFF;
+            background-color:#333;
+
+        }
+        .catbut0 {
+            padding:10px;
+            background:#D92414;
+            color:#FFFFFF;
+            border:1px solid #FFF;
+            border-radius: 8px;
+            margin:5px;
+            font-size:1.2em;
+        }
+        .catbut1 {
+            padding:10px;
+            background:#F23D6D;
+            color:#FFFFFF;
+            border:1px solid #FFF;
+            border-radius: 8px;
+            margin:5px;
+            font-size:1.2em;
+        }
+        .catbut2 {
+            padding:10px;
+            background:#04B2D9;
+            color:#FFFFFF;
+            border:1px solid #FFF;
+            border-radius: 8px;
+            margin:5px;
+            font-size:1.2em;
+        }
+        .catbut3 {
+            padding:10px;
+            background:#F9B413;
+            color:#FFFFFF;
+            border:1px solid #FFF;
+            border-radius: 8px;
+            margin:5px;
+            font-size:1.2em;
+        }
+        .lastdiv{
+            border:1px solid white;
+            border-radius:8px;
+        }
+        .divimg{
+            display:flex;
+            justify-content: center;
+            margin-bottom:20px;
+            margin-top:20px;
+        }
+        #game{
+            height:100%;
+            display:flex;
+            justify-content: center;
+            flex-direction: column;
+
+        }
+        .phigh{
+            font-size:1.8em;
+        }
+    </style>
 </head>
-
 <body>
 
 
+      <div id ="Jo"></div>
+    <div id="achiev"></div>
+    <div id ="timer">
+        <p id="time"></p>
+    </div>
+    <div id="game">
 
-     <div id ="timer">
+    </div>
+    <div id="backbutton"></div>
 
-         <p id="time"></p>
-
-     </div>
-
-     <div id ="Jo"></div>
-
-
-
- <div id="game">
-
-
-
- </div>
-
- <div id="backbutton"></div>
-
-
-
- <script type="text/javascript" src="index.js"></script>
-
+    <script type="text/javascript" src="index.js"></script>
 </body>
-
 </html>

@@ -30,11 +30,6 @@ var explorer= 4;
 
 var reachedachiev = [];
 var dod = [];
-localStorage.clear();
-
-
-
-
 choseachiev();
 function choseachiev(){
   var x = localStorage.getItem("highscore");

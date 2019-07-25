@@ -35,8 +35,72 @@ var dod = [];
 
 
 
-firstplay();
+choseachiev();
+function choseachiev(){
+  var x = localStorage.getItem("highscore");
+    if(score>x){
+        highscore=score;
+        localStorage.removeItem("highscore")
+        localStorage.setItem("highscore",score);
+        //local Storages auskommentieren
+    }
+  var a = localStorage.getItem("A");//Anfänger
+  var a1 = localStorage.getItem("A1");//Fortgeschrittener
+  var a2 = localStorage.getItem("A2");//Explorer
+  var a3= localStorage.getItem("A3");//Höchstpunktzahl
+  var a4= localStorage.getItem("A4");//Alleingänger
+  var y = joker+changequest+halfhalf;
+    if(a==null){
+      if(score >= 500||x >= 500){
+        localStorage.setItem("arc2","Anfänger");
+        localStorage.setItem("A","1");
+        var baby= 0;
+        efor.push("Anfänger");
+      }
+    }
+    if(a1==null){
+      if(score >= 1500||x >= 1500){
+        localStorage.setItem("arc3","Fortgeschrittener");
+        localStorage.setItem("A1","1");
+        efor.push("Fortgeschrittener");
+      }
+    }
+
+    if(a2==null){
+      if(score >= 2500|| x>= 2500){
+        localStorage.setItem("arc4","Explorer");
+        localStorage.setItem("A2","1");
+        efor.push("Explorer");
+
+      }
+    }
+    if(a3==null){
+      if(score == 3200|| x == 3200){
+        localStorage.setItem("arc0","Höchstpunktzahl");
+        localStorage.setItem("A3","1");
+        efor.push("Höchstpunktzahl");
+      }
+    }
+    if(a4==null){
+      if(score > 2000 || x > 2000){
+        if(y==3){
+          localStorage.setItem("arc1","Alleingänger");
+          localStorage.setItem("A4","1");
+          efor.push("Alleingänger");
+        }
+      }
+
+    }
+    score=0;
+    joker=1;
+    halfhalf=1;
+    changequest=1;
+    getachievment();
+}
 function firstplay(){
+
+
+
     var high = localStorage.getItem("highscore")//auskommentieren bei erweiterungen
     var brules = document.createElement("button");
     brules.classList.add("PlayButton");
@@ -515,7 +579,7 @@ function createEnd(){
 }
 function resetakanewgame(){
 
-            score=0;
+
             jkil=1;
              l = ["1","1","1","1","1"]
              c = ["0","1","2","3","4"]
@@ -530,74 +594,14 @@ function resetakanewgame(){
              categorieschoosen=[];
             k = 1;
             ck=0;
-            joker=1;
-            halfhalf=1;
+
             efor=[];
-            changequest=1;
             document.getElementById("game").innerHTML="";
             document.getElementById("backbutton").innerHTML="";
             document.getElementById("achiev").innerHTML="";
             firstplay();
           }
-function checkthearchievment(){
-  var x = localStorage.getItem("highscore");
-    if(score>x){
-        highscore=score;
-        localStorage.removeItem("highscore")
-        localStorage.setItem("highscore",score);
-        //local Storages auskommentieren
-    }
-  var a = localStorage.getItem("A");//Anfänger
-  var a1 = localStorage.getItem("A1");//Fortgeschrittener
-  var a2 = localStorage.getItem("A2");//Explorer
-  var a3= localStorage.getItem("A3");//Höchstpunktzahl
-  var a4= localStorage.getItem("A4");//Alleingänger
-  var y = joker+changequest+halfhalf;
-    if(a==null){
-      if(score >= 500){
-        localStorage.setItem("arc2","Anfänger");
-        localStorage.setItem("A","1");
-        var baby= 0;
-        efor.push("Anfänger");
-      }
-    }
-    if(a1==null){
-      if(score >= 1500){
-        localStorage.setItem("arc3","Fortgeschrittener");
-        localStorage.setItem("A1","1");
-        efor.push("Fortgeschrittener");
-      }
-    }
 
-    if(a2==null){
-      if(score >= 2500){
-        localStorage.setItem("arc4","Explorer");
-        localStorage.setItem("A2","1");
-        efor.push("Explorer");
-
-      }
-    }
-    if(a3==null){
-      if(score == 3200){
-        localStorage.setItem("arc0","Höchstpunktzahl");
-        localStorage.setItem("A3","1");
-        efor.push("Höchstpunktzahl");
-      }
-    }
-    if(a4==null){
-      if(score > 2000){
-        if(y==3){
-          localStorage.setItem("arc1","Alleingänger");
-          localStorage.setItem("A4","1");
-          efor.push("Alleingänger");
-        }
-      }
-
-    }
-
-    getachievment();
-
-}
 function getachievment(){
   var a = localStorage.getItem("A");//Anfänger
   var a1 = localStorage.getItem("A1");//Fortgeschrittener
@@ -605,10 +609,12 @@ function getachievment(){
   var a3= localStorage.getItem("A3");//Höchstpunktzahl
   var a4= localStorage.getItem("A4");//Alleingänger
   var a5= localStorage.getItem("A5");//Champion
-  if(a4!=null && a3!=null && a2!=null && a1!=null && a!=null){
-    localStorage.setItem("arc5","Champion");
-    localStorage.setItem("A5","1");
-    efor.push("Champion");
+  if(a5==null){
+    if(a4!=null && a3!=null && a2!=null && a1!=null && a!=null){
+      localStorage.setItem("arc5","Champion");
+      localStorage.setItem("A5","1");
+      efor.push("Champion");
+    }
   }
   var kol = 1;
   document.getElementById("game").innerHTML="";

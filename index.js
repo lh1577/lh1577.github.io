@@ -1,4 +1,4 @@
-var categories =["Sport","Wissenschaft","Geografie","Tiere","Geschichte","Mythologie","Psychologie"]
+var categories =["Sport","Wissenschaft","Geografie","Tiere","Geschichte","Mythologie","Psychologie","Weltraum"]
 var categorieschoosen=[];
 k = 1;
 var score = 0;
@@ -51,7 +51,7 @@ function choseachiev(){
   var a4= localStorage.getItem("A4");//Alleingänger
   var y = joker+changequest+halfhalf;
     if(a==null){
-      if(score >= 500||x >= 500){
+      if(score >= 1000||x >= 1000){
         localStorage.setItem("arc2","Anfänger");
         localStorage.setItem("A","1");
         var baby= 0;
@@ -59,7 +59,7 @@ function choseachiev(){
       }
     }
     if(a1==null){
-      if(score >= 1500||x >= 1500){
+      if(score >= 2000||x >= 2000){
         localStorage.setItem("arc3","Fortgeschrittener");
         localStorage.setItem("A1","1");
         efor.push("Fortgeschrittener");
@@ -67,7 +67,7 @@ function choseachiev(){
     }
 
     if(a2==null){
-      if(score >= 2500|| x>= 2500){
+      if(score >= 3000|| x>= 3000){
         localStorage.setItem("arc4","Explorer");
         localStorage.setItem("A2","1");
         efor.push("Explorer");
@@ -75,14 +75,14 @@ function choseachiev(){
       }
     }
     if(a3==null){
-      if(score == 3200|| x == 3200){
+      if(score == 4000|| x == 4000){
         localStorage.setItem("arc0","Höchstpunktzahl");
         localStorage.setItem("A3","1");
         efor.push("Höchstpunktzahl");
       }
     }
     if(a4==null){
-      if(score > 2000 || x > 2000){
+      if(score > 2500 || x > 2500){
         if(y==3){
           localStorage.setItem("arc1","Alleingänger");
           localStorage.setItem("A4","1");
@@ -416,7 +416,7 @@ function nextpage(){
         dd.classList.add("divoflist")
         var p = document.createElement("p");
         p.classList.add("pof")
-        var pin = document.createTextNode(categorieschoosen.length+' of 4');
+        var pin = document.createTextNode(categorieschoosen.length+' of 5');
         p.appendChild(pin);
         dd.appendChild(p);
         div.appendChild(dd);
@@ -460,7 +460,7 @@ function lookforcategories(event, c){
     document.getElementById("game").innerHTML ="";
 
     categorieschoosen.push(c);
-    if(categorieschoosen.length >3){
+    if(categorieschoosen.length >4){
         document.getElementById("game").innerHTML = "";
        startgame();
     }
@@ -490,7 +490,7 @@ function startgame(){
     b1.onclick = function(){
         categorieschoosen=[];
         clean=0;
-        categories = ["Sport","Wissenschaft","Geografie","Geschichte","Tiere","Mythologie","Psychologie"]
+        categories = ["Sport","Wissenschaft","Geografie","Geschichte","Tiere","Mythologie","Psychologie","Weltraum"]
         nextpage();
     }
     var b1in = document.createTextNode("Neu");
@@ -568,7 +568,7 @@ function createEnd(){
     var bin = document.createTextNode("Neues Spiel");
     b.classList.add("catbut");
     b.onclick = function(){
-        checkthearchievment();
+        choseachiev();
     }
     b.appendChild(bin);
     p.appendChild(pin);
@@ -589,7 +589,7 @@ function resetakanewgame(){
              copanswer=[];
              cophalf=[]
              copall = {}
-            categories = ["Sport","Wissenschaft","Geografie","Geschichte","Tiere","Mythologie","Psychologie"]
+            categories = ["Sport","Wissenschaft","Geografie","Geschichte","Tiere","Mythologie","Psychologie","Weltraum"]
              count = 0;
              categorieschoosen=[];
             k = 1;
@@ -761,7 +761,6 @@ function sendRequest(url, callback) {
 
 function getthequestions(url,lvl,checklvl){
     sendRequest("question/"+url+"/"+"lvl"+lvl+".json", function(data){
-      console.log(JSON.parse(data))
         questions = JSON.parse(data);
         copall = questions;
         makethenumber(copall,url,checklvl,lvl);
@@ -874,7 +873,7 @@ function makethequestion(copquest,url,checklvl,copanswer,cophalf,q,lvl){
         var j2 = document.createElement("button");
 
 
-        j2.classList.add("catbut1")
+        j2.classList.add("catbut2")
         j2.onclick = function(){
              jkil=0;
              halfhalf= 0;
@@ -907,7 +906,7 @@ function makethequestion(copquest,url,checklvl,copanswer,cophalf,q,lvl){
         var j3 = document.createElement("button");
 
 
-        j3.classList.add("catbut3")
+        j3.classList.add("catbut4")
         j3.onclick = function(){
             jkil=0;
             changequest = 0;
@@ -942,7 +941,7 @@ function makethequestion(copquest,url,checklvl,copanswer,cophalf,q,lvl){
         foranswer(copanswer[i]);
         function foranswer(copa){
             var b = document.createElement("button");
-            b.classList.add("catbut2")
+            b.classList.add("catbut3")
             b.onclick = function(){
                 jkil=1;
                 correctorwrong(copa,copquest.correctAnswer,url,checklvl,lvl);

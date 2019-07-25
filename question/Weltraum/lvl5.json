@@ -5,8 +5,7 @@
     "A3":"Schildkröte",
     "A4":"Fliege",
     "correctAnswer":"Hund"
-},
-{
+},{
     "F":"Auf welchem Planeten landete erstmal ein von Menschenhand gemachtes Objekt?",
     "A1":"Mars",
     "A2":"Saturn",
@@ -37,4 +36,4 @@
     "A3":"Die USA mit dem  Space Shuttle",
     "A4":"SpaceX mit Flacon 9",
     "correctAnswer":"Die USA mit dem  Space Shuttle"
-},]
+}]

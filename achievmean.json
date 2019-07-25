@@ -1,13 +1,13 @@
 [{
   "Höchstpunktzahl":"Sie haben die höchste Punktzahl im Spiel erreicht !"
 },{
-  "Alleingänger":"Sie haben einen Score über 2000 erreicht ohne ein Hilfsmittel benutzt zu haben"
+  "Alleingänger":"Sie haben einen Score über 2500 erreicht ohne ein Hilfsmittel benutzt zu haben"
 },{
-  "Anfänger":"Ihre Punktzahl lag über 500 Punkte!"
+  "Anfänger":"Ihre Punktzahl lag über 1000 Punkte!"
 },{
-  "Fortgeschrittener":"Ihre Punktzahl lag über 1500 Punkte!"
+  "Fortgeschrittener":"Ihre Punktzahl lag über 2000 Punkte!"
 },{
-  "Explorer":"Ihre Punktzahl beträgt 2500 oder mehr!"
+  "Explorer":"Ihre Punktzahl beträgt 3000 oder mehr!"
 },{
   "Champion":"Sie haben alle Meilenstein freigeschaltet!"
 }]

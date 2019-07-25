@@ -30,7 +30,7 @@ var explorer= 4;
 
 var reachedachiev = [];
 var dod = [];
-
+localStorage.clear();
 
 
 

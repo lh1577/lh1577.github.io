@@ -26,6 +26,9 @@ var baby = 2;
 var efor = [];
 var medium= 3;
 var explorer= 4;
+localStorage.setItem("incorrect","0.05");
+localStorage.setItem("correct","0.1");
+localStorage.setItem("music","1");
 
 
 var reachedachiev = [];
@@ -92,8 +95,9 @@ function choseachiev(){
     changequest=1;
     getachievment();
 }
-function firstplay(){
 
+function firstplay(){
+    setmusic();
 
 
     var high = localStorage.getItem("highscore")//auskommentieren bei erweiterungen
@@ -122,6 +126,12 @@ function firstplay(){
     var buttontext = document.createTextNode("Play");
     var p =  document.createElement("p");
     p.classList.add("phigh");
+    var setbut = document.createElement("button");
+    setbut.classList.add("fas","fa-align-justify","fa-2x","setbut")
+    setbut.onclick = function(){
+      document.getElementById("game").innerHTML="";
+      setsettings();
+    }
     var pin = document.createTextNode("Highscore: "+high); //Ändern in high bei Upload bei bearbeitung in score umwandeln
     var changebutton = document.createElement("button");
     changebutton.classList.add("PlayButton");
@@ -136,6 +146,7 @@ function firstplay(){
     brules.appendChild(brule);
     p.appendChild(pin);
     div.appendChild(p);
+    div.appendChild(setbut);
     changebutton.appendChild(inch);
     divimg.appendChild(im);
     divtwo.appendChild(buttonplay);
@@ -156,6 +167,137 @@ function firstplay(){
         placesucces()
       }
     }
+}
+function setmusic(){
+ var v = localStorage.getItem("music");
+  var a = document.getElementById("bm");
+  a.loop = true;
+  a.volume = v;
+  a.play();
+}
+function setsettings(){
+  var e = document.getElementById("game");
+  var u = document.createElement("ul");
+  u.classList.add("nolity")
+  var l = document.createElement("li");
+  l.classList.add("isti");
+  var l1 = document.createElement("li");
+  l1.classList.add("isti");
+
+  var dl1 = document.createElement("div");
+  dl1.id="dl1";
+  dl1.classList.add("divset")
+  dl1.display="inline";
+  var l1in = document.createTextNode("Musik :")
+
+  var d = document.createElement("div");
+  d.classList.add("divset")
+  var b = document.createElement("button");
+  var bin = document.createTextNode("Zurück");
+  b.appendChild(bin);
+  b.classList.add("biar"),
+  b.onclick = function(){
+    document.getElementById('game').innerHTML="";
+    firstplay();
+  }
+  d.id="dsetbut";
+  d.display="inline";
+  var v1 = localStorage.getItem("correct");
+  console.log(v1);
+  var v2 = localStorage.getItem("incorrect");
+  if(v1 == 0.1){
+    vu();
+  }
+  else{
+    vm();
+  }
+  function vu(){
+    localStorage.removeItem("correct");
+    localStorage.setItem("correct","0.1");
+    localStorage.removeItem("incorrect");
+    localStorage.setItem("incorrect","0.05");
+    var lb = document.createElement("button");
+    lb.classList.add("fas","fa-volume-up","fa-lg","setsbut");
+
+    lb.onclick = function(){
+      document.getElementById('dsetbut').innerHTML="";
+      vm();
+    }
+    d.appendChild(l);
+    d.appendChild(lb);
+  }
+  function vm(){
+    localStorage.removeItem("correct");
+    localStorage.setItem("correct","0");
+    localStorage.removeItem("incorrect");
+    localStorage.setItem("incorrect","0");
+    var lb1 = document.createElement("button");
+    lb1.onclick = function(){
+      document.getElementById('dsetbut').innerHTML="";
+      vu();
+    }
+
+      lb1.classList.add("fas","fa-volume-mute","fa-lg","setsbut");
+      d.appendChild(l);
+      d.appendChild(lb1);
+
+
+
+  }
+  var v = localStorage.getItem("music");
+  if(v==1){
+    mo();
+  }
+  else{
+    mm();
+  }
+  function mo(){
+    localStorage.removeItem("music");
+    localStorage.setItem("music","1");
+    var l1b = document.createElement("button");
+    l1b.classList.add("fas","fa-music","fa-lg","setsbut")
+    l1b.onclick = function(){
+      document.getElementById("dl1").innerHTML="";
+
+      mm();
+
+    }
+    dl1.appendChild(l1);
+    dl1.appendChild(l1b);
+    setmusic();
+
+
+  }
+  function mm(){
+    localStorage.removeItem("music");
+    localStorage.setItem("music","0");
+    var l1b1 = document.createElement("button");
+    l1b1.classList.add("fas","fa-microphone-slash","fa-lg","setsbut")
+    l1b1.onclick = function(){
+      document.getElementById("dl1").innerHTML="";
+
+      mo();
+
+    }
+    dl1.appendChild(l1)
+    dl1.appendChild(l1b1);
+    setmusic();
+
+  }
+
+
+
+
+  var li = document.createTextNode("Sound :");
+
+  l1.appendChild(l1in)
+  l.appendChild(li);
+
+  u.appendChild(d);
+  u.appendChild(dl1)
+  u.appendChild(b);
+  e.appendChild(u);
+
 }
 function placesucces(){
   var arc0 = localStorage.getItem("arc0")
@@ -954,6 +1096,20 @@ function makethequestion(copquest,url,checklvl,copanswer,cophalf,q,lvl){
 
 
 }
+function correctsound(){
+
+  var vc = localStorage.getItem("correct");
+  var a = document.getElementById("c");
+  a.volume = vc;
+  a.play();
+}
+function incorrectsound(){
+
+  var vi = localStorage.getItem("incorrect");
+  var a = document.getElementById("inc");
+  a.volume = vi;
+  a.play();
+}
 function correctorwrong(answer,correct,url,cl,lvl){
     document.getElementById("game").innerHTML="";
     timer = clearInterval(timer);
@@ -972,6 +1128,7 @@ function correctorwrong(answer,correct,url,cl,lvl){
     var dd = document.createElement("div");
     dd.classList.add("divoflist")
     if(answer==correct){
+      correctsound();
         score = score + 100;
         var pin = document.createTextNode("Richtig!!");
         b.onclick = function(){
@@ -993,10 +1150,10 @@ function correctorwrong(answer,correct,url,cl,lvl){
         }
     }
     else{
+        incorrectsound();
         var pin = document.createTextNode("Deine Antwort ist falsch. "+correct+" wäre die richtige Antwort gewesen");
         b.onclick = function(){
 
-            console.log(url,cl)
             wronganswer(event,url,cl,lvl);
 
 

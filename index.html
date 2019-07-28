@@ -190,11 +190,53 @@
         .phigh{
             font-size:1.8em;
         }
+        .audio{
+          display:none;
+        }
+        .setbut{
+          color:#FFF;
+          border:1px solid #333;
+          border-radius:8px;
+          background-color:#333;
+          margin-left:20px;
+          cursor:pointer;
+          margin:20px;
+        }
+        .nolity{
+          list-style-type: none;
+          text-align:center;
+          font-size: 1.4em;
+
+
+        }
+        .divset{
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+        }
+        .setsbut{
+          color:#FFF;
+          background: #333;
+          border:1px solid #333;
+          border-radius:8px;
+          padding:10px;
+          margin:10px;
+        }
+        .isti{
+          margin-top:20px;
+        }
     </style>
 </head>
 <body>
+    <audio src="music/correct.mp3"class ="audio" controls id="c">
 
+    </audio>
+    <audio src="music/incorrect.mp3" class="audio" controls id ="inc">
 
+    </audio>
+    <audio src="music/bm.mp3" class="audio controls "id ="bm">
+
+    </audio>
       <div id ="Jo"></div>
     <div id="achiev"></div>
     <div id ="timer">
